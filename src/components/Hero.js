@@ -36,35 +36,29 @@ const Hero = () => {
                                 alt={`Slide ${index + 1}`}
                                 style={{ height: "100vh", objectFit: "cover" }}
                             />
-                            <div className="carousel-caption d-flex flex-column justify-content-center hero-caption">
-                                <h5
-                                    style={{
-                                        fontWeight: "bold",
-                                    }}
-                                >
-                                    Agile software development that grows your
-                                    business
-                                </h5>
-                                <h1
-                                    className={`mt-4 mb-4 fade-up ${
-                                        animate ? "fade-up" : ""
-                                    }`}
-                                >
-                                    Your Trusted Technology Partner in Finland
-                                </h1>
-                                <p
-                                    style={{ fontSize: "1rem" }}
-                                    className={animate ? "fade-up-delay" : ""}
-                                >
-                                    SYLOX provides professional software
-                                    development for Finnish SMEs and large
-                                    enterprises. Our local team speaks Finnish
-                                    and understands your market.
-                                </p>
-                            </div>
                         </div>
                     )
                 )}
+            </div>
+            <div className="carousel-caption d-flex flex-column justify-content-center hero-caption">
+                <h5
+                    style={{
+                        fontWeight: "bold",
+                    }}
+                >
+                    Agile software development that grows your business
+                </h5>
+                <h1 className={`mt-4 mb-4 fade-up ${animate ? "fade-up" : ""}`}>
+                    Your Trusted Technology Partner in Finland
+                </h1>
+                <p
+                    style={{ fontSize: "1rem" }}
+                    className={animate ? "fade-up-delay" : ""}
+                >
+                    SYLOX provides professional software development for Finnish
+                    SMEs and large enterprises. Our local team speaks Finnish
+                    and understands your market.
+                </p>
             </div>
         </div>
     );
