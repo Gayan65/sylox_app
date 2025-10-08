@@ -18,6 +18,7 @@ code {
     z-index: 10;
 }
 
+/*hero*/
 .carousel-item {
     position: relative;
     overflow: hidden;
@@ -46,4 +47,84 @@ code {
     position: absolute;
     z-index: 2; /* Above both the image and overlay */
     color: #fff;
+}
+
+.hero-caption {
+    top: 0;
+    bottom: 0;
+    left: 10%;
+    right: 55%;
+    padding: 2rem;
+    text-align: left;
+}
+
+.hero-caption h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.hero-caption h5 {
+    margin-bottom: 1rem;
+}
+
+/*hero media*/
+@media (max-width: 1333px) {
+    .hero-caption {
+        left: 5%;
+        right: 40%;
+    }
+}
+
+@media (max-width: 849px) {
+    .hero-caption h1 {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 610px) {
+    .hero-caption {
+        left: 10%;
+        right: 10%;
+        text-align: center;
+    }
+}
+
+@media (max-width: 524px) {
+    .hero-caption {
+        left: 5%;
+        right: 5%;
+    }
+
+    .hero-caption h1 {
+        font-size: 1.7rem;
+    }
+
+    .hero-caption h5 {
+        font-size: 1rem;
+    }
+}
+
+/*Hero animation */
+.fade-up {
+    opacity: 0;
+    transform: translateY(60px);
+    animation: fadeUp 1s ease-out forwards;
+}
+
+.fade-up-delay {
+    opacity: 0;
+    transform: translateY(60px);
+    animation: fadeUp 1s ease-out 0.2s forwards;
+}
+
+@keyframes fadeUp {
+    from {
+        opacity: 0;
+        transform: translateY(60px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
