@@ -59,6 +59,10 @@ const Hero = () => {
                     SMEs and large enterprises. Our local team speaks Finnish
                     and understands your market.
                 </p>
+
+                <button type="button" className="btn btn-primary mt-5">
+                    CALL-TO-ACTION
+                </button>
             </div>
         </div>
     );
