@@ -16,6 +16,11 @@ code {
     background: transparent;
     position: absolute;
     z-index: 10;
+    left: 10%;
+}
+
+.navbar-nav a {
+    color: #fff;
 }
 
 /*hero*/
