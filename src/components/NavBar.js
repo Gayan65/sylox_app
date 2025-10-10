@@ -1,46 +1,30 @@
-import React from "react";
-import navLogo from "../assets/images/logo/TempLogo.png";
+import { useRef } from "react";
+import { FaBars, FaTimes } from "react-icons/fa";
 
-const NavBar = () => {
+function NavBar() {
+    const navRef = useRef();
+
+    const showNavbar = () => {
+        navRef.current.classList.toggle("responsive_nav");
+    };
+
     return (
-        <nav className="navbar navbar-expand-lg ">
-            <div className="container">
-                <a className="navbar-brand" href="/">
-                    <img src={navLogo} alt="navigation logo" width={170} />
-                </a>
-                <button
-                    className="navbar-toggler"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#navbarNavAltMarkup"
-                    aria-controls="navbarNavAltMarkup"
-                    aria-expanded="false"
-                    aria-label="Toggle navigation"
-                >
-                    <span className="navbar-toggler-icon"></span>
+        <header>
+            <h3>LOGO</h3>
+            <nav ref={navRef}>
+                <a href="/#">Home</a>
+                <a href="/#">My work</a>
+                <a href="/#">Blog</a>
+                <a href="/#">About me</a>
+                <button className="nav-btn nav-close-btn" onClick={showNavbar}>
+                    <FaTimes />
                 </button>
-                <div
-                    className="collapse navbar-collapse"
-                    id="navbarNavAltMarkup"
-                >
-                    <div className="navbar-nav">
-                        <a className="nav-link" aria-current="page" href="#">
-                            Home
-                        </a>
-                        <a className="nav-link" href="#">
-                            About
-                        </a>
-                        <a className="nav-link" href="#">
-                            Contact
-                        </a>
-                        <a className="nav-link" href="#">
-                            Management
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </nav>
+            </nav>
+            <button className="nav-btn" onClick={showNavbar}>
+                <FaBars />
+            </button>
+        </header>
     );
-};
+}
 
 export default NavBar;
