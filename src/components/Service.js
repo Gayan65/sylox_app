@@ -1,4 +1,7 @@
 import React from "react";
+import { FaDesktop } from "react-icons/fa";
+import { FaMobileAlt } from "react-icons/fa";
+import { FaNetworkWired } from "react-icons/fa";
 
 const Service = () => {
     return (
@@ -12,10 +15,10 @@ const Service = () => {
             </div>
 
             <div className="container mt-5">
-                <div className="card-group">
+                <div className="d-flex flex-wrap justify-content-center gap-4">
                     <div className="service-card">
                         <div className="service-icon">
-                            <i className="bi bi-phone"></i>
+                            <FaDesktop />
                         </div>
 
                         <h4 className="service-title">
@@ -46,7 +49,7 @@ const Service = () => {
 
                     <div className="service-card">
                         <div className="service-icon">
-                            <i className="bi bi-phone"></i>
+                            <FaNetworkWired />
                         </div>
 
                         <h4 className="service-title">
@@ -77,7 +80,7 @@ const Service = () => {
 
                     <div className="service-card">
                         <div className="service-icon">
-                            <i className="bi bi-phone"></i>
+                            <FaMobileAlt />
                         </div>
 
                         <h4 className="service-title">

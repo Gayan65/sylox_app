@@ -268,7 +268,7 @@ nav {
 /* Card container */
 .service-card {
     background: #f9fcff;
-    border-radius: 12px;
+    border-radius: 5px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
     padding: 24px;
     max-width: 400px;
@@ -306,7 +306,7 @@ nav {
     list-style-type: disc;
     padding-left: 20px;
     color: #333;
-    line-height: 1.6;
+    line-height: 2;
     margin-bottom: 20px;
 }
 
@@ -319,9 +319,13 @@ nav {
 
 .service-tags span {
     background: #e8f3ff;
-    color: #007bff;
+    color: #0369a1;
     font-size: 0.9rem;
     padding: 6px 12px;
     border-radius: 20px;
-    font-weight: 500;
+}
+
+.service-card:hover {
+    transform: translateY(-10px); /* bump up */
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* slightly bigger shadow */
 }
