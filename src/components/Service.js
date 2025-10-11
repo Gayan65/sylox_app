@@ -1,7 +1,4 @@
 import React from "react";
-import webImg from "../assets/images/services/web.jpg";
-import appImg from "../assets/images/services/mobile.jpg";
-import epsImg from "../assets/images/services/eps.jpg";
 
 const Service = () => {
     return (
