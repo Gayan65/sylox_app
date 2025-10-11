@@ -352,11 +352,27 @@ nav {
     padding: 1.5rem 2rem;
 }
 
+.custom-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.custom-list li {
+    display: flex;
+    align-items: flex-start; /* keeps icon top-aligned with multi-line text */
+    gap: 1rem;
+    margin-bottom: 1.2rem;
+    line-height: 1.6;
+}
+
 .why-icon {
-    width: 2rem;
-    display: inline;
-    align-items: center;
-    justify-content: center;
     color: #0066ff;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
+    flex-shrink: 0; /* prevents icon from resizing */
+    margin-top: 0.3rem; /* slight tweak to align with text visually */
+}
+
+.list-text strong {
+    display: inline-block;
+    margin-bottom: 0.1rem; /* removes extra spacing from bold font */
 }

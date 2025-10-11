@@ -15,11 +15,11 @@ const WhySection = () => {
             </div>
 
             <div className="container mt-5 custom-check-card">
-                <div className="feature-list">
-                    <div className="feature-item">
-                        <div className="feature-text">
+                <ul className="custom-list">
+                    <li>
+                        <FaCheckCircle className="why-icon" />
+                        <div className="list-text">
                             <strong>
-                                <FaCheckCircle className="why-icon me-3" />
                                 Finnish Quality & Global Experience:
                             </strong>{" "}
                             Nordic standards, international project delivery,
@@ -27,56 +27,48 @@ const WhySection = () => {
                             meetings, General Data Protection Regulation (GDPR)
                             compliance, same time zone.
                         </div>
-                    </div>
-                    <div className="feature-item">
-                        <div className="feature-text">
-                            <strong>
-                                {" "}
-                                <FaCheckCircle className="why-icon me-3" />
-                                Agile & Transparent Development:
-                            </strong>{" "}
+                    </li>
+
+                    <li>
+                        <FaCheckCircle className="why-icon" />
+                        <div className="list-text">
+                            <strong>Agile & Transparent Development:</strong>{" "}
                             Uses Agile/Scrum for flexible management, regular
                             sprints/demos, fast response to changes, clear
                             timelines/budgets, transparent progress tracking.
                         </div>
-                    </div>
-                    <div className="feature-item">
-                        <div className="feature-text">
-                            <strong>
-                                {" "}
-                                <FaCheckCircle className="why-icon me-3" />
-                                Technical Excellence:
-                            </strong>{" "}
-                            12+ years’ experience, certified experts (Scrum,
-                            cloud), full-stack, DevOps/CI/CD, emphasis on
-                            security and analytics, ongoing learning.
+                    </li>
+
+                    <li>
+                        <FaCheckCircle className="why-icon" />
+                        <div className="list-text">
+                            <strong>Technical Excellence:</strong> 12+ years’
+                            experience, certified experts (Scrum, cloud),
+                            full-stack, DevOps/CI/CD, emphasis on security and
+                            analytics, ongoing learning.
                         </div>
-                    </div>
-                    <div className="feature-item">
-                        <div className="feature-text">
-                            <strong>
-                                {" "}
-                                <FaCheckCircle className="why-icon me-3" />
-                                Customer Focus:
-                            </strong>{" "}
-                            Free consultation, tailored solutions, Finnish
-                            documentation, training/onboarding, long-term
-                            support and maintenance.
+                    </li>
+
+                    <li>
+                        <FaCheckCircle className="why-icon" />
+                        <div className="list-text">
+                            <strong>Customer Focus:</strong> Free consultation,
+                            tailored solutions, Finnish documentation,
+                            training/onboarding, long-term support and
+                            maintenance.
                         </div>
-                    </div>
-                    <div className="feature-item">
-                        <div className="feature-text">
-                            <strong>
-                                {" "}
-                                <FaCheckCircle className="why-icon me-3" />
-                                Cost-Effective & Flexible Models:
-                            </strong>{" "}
+                    </li>
+
+                    <li>
+                        <FaCheckCircle className="why-icon" />
+                        <div className="list-text">
+                            <strong>Cost-Effective & Flexible Models:</strong>{" "}
                             Includes fixed-price, dedicated teams, staff
                             augmentation, retainer, and maintenance/support
                             contracts to meet diverse needs and budgets.
                         </div>
-                    </div>
-                </div>
+                    </li>
+                </ul>
             </div>
         </div>
     );
