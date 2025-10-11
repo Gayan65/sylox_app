@@ -32,7 +32,17 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    border: #29335c solid;
+}
+
+/* When scrolled */
+header.scrolled {
+    background: rgba(
+        41,
+        51,
+        92,
+        0.212
+    ) !important; /* slightly darker blue tone */
+    backdrop-filter: blur(8px);
 }
 
 nav a {

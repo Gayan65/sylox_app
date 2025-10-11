@@ -1,15 +1,25 @@
-import { useRef } from "react";
+import { useRef, useState, useEffect } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 
 function NavBar() {
     const navRef = useRef();
+    const [isScrolled, setIsScrolled] = useState(false);
 
     const showNavbar = () => {
         navRef.current.classList.toggle("responsive_nav");
     };
 
+    useEffect(() => {
+        const handleScroll = () => {
+            setIsScrolled(window.scrollY > 20);
+        };
+
+        window.addEventListener("scroll", handleScroll);
+        return () => window.removeEventListener("scroll", handleScroll);
+    }, []);
+
     return (
-        <header>
+        <header className={isScrolled ? "scrolled" : ""}>
             <h3>LOGO</h3>
             <nav ref={navRef}>
                 <a href="/#">Home</a>
