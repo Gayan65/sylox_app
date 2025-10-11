@@ -32,6 +32,7 @@ header {
     top: 0;
     left: 0;
     width: 100%;
+    border: #29335c solid;
 }
 
 nav a {
@@ -65,7 +66,6 @@ nav {
 
 .language-custom-corner {
     position: absolute;
-    top: 2rem;
     right: 2rem;
 }
 
