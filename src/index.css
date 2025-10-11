@@ -270,7 +270,7 @@ nav {
     background: #f9fcff;
     border-radius: 5px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
-    padding: 24px;
+    padding: 1.5rem 2rem;
     max-width: 400px;
     transition: all 0.3s ease;
 }
@@ -329,3 +329,19 @@ nav {
     transform: translateY(-10px); /* bump up */
     box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* slightly bigger shadow */
 }
+
+/*TEXT MEDIA*/
+
+@media (max-width: 849px) {
+    .heading-text {
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 610px) {
+    .heading-text {
+        font-size: 2rem;
+    }
+}
+
+/* Why Sylox section*/
