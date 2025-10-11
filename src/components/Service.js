@@ -1,7 +1,7 @@
 import React from "react";
 
 const Service = () => {
-    return <div>Service section</div>;
+    return <div className="container-fluid custom-color">Service section</div>;
 };
 
 export default Service;

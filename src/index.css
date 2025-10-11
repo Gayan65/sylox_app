@@ -36,12 +36,7 @@ header {
 
 /* When scrolled */
 header.scrolled {
-    background: rgba(
-        41,
-        51,
-        92,
-        0.212
-    ) !important; /* slightly darker blue tone */
+    background: rgb(29, 59, 116) !important; /* slightly darker blue tone */
     backdrop-filter: blur(8px);
 }
 
@@ -96,7 +91,7 @@ nav {
         align-items: center;
         justify-content: center;
         gap: 1.5rem;
-        background-color: #29335c71;
+        background-color: rgb(29, 59, 116) !important;
         backdrop-filter: blur(15px);
         transition: 1s;
     }
@@ -246,4 +241,10 @@ nav {
         opacity: 1;
         transform: translateY(0);
     }
+}
+
+/*service section*/
+.custom-color {
+    background-color: #e7f6ff;
+    height: 100vh;
 }
