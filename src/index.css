@@ -345,3 +345,18 @@ nav {
 }
 
 /* Why Sylox section*/
+.custom-check-card {
+    background-color: #f9fcff;
+    border-radius: 5px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    padding: 1.5rem 2rem;
+}
+
+.why-icon {
+    width: 2rem;
+    display: inline;
+    align-items: center;
+    justify-content: center;
+    color: #0066ff;
+    font-size: 1.8rem;
+}
