@@ -376,3 +376,25 @@ nav {
     display: inline-block;
     margin-bottom: 0.1rem; /* removes extra spacing from bold font */
 }
+
+/*profile section*/
+.profile-card {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+
+    max-width: 400px; /* gives enough room for profile image */
+
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.profile-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.profile-img {
+    width: 100%;
+    height: auto;
+
+    display: block;
+}
