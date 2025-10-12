@@ -4,6 +4,7 @@ import Service from "../components/Service";
 import WhySection from "../components/WhySection";
 import Management from "../components/Management";
 import FiBanner from "../components/FiBanner";
+import Portfolio from "../components/Portfolio";
 
 const Home = () => {
     return (
@@ -13,6 +14,7 @@ const Home = () => {
             <WhySection />
             <Management />
             <FiBanner />
+            <Portfolio />
         </div>
     );
 };

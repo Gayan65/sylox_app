@@ -437,3 +437,16 @@ nav {
     font-size: 1rem;
     color: #eee;
 }
+
+/*Portfolio section */
+.portfolio-card {
+    max-width: 400px; /* gives enough room for profile image */
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: #0066ff solid 1px;
+}
+
+.text-container-portfolio {
+    padding: 1rem;
+    text-align: justify;
+}

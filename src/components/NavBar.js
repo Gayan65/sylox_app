@@ -26,6 +26,7 @@ function NavBar() {
                 <a href="/#">About us</a>
                 <a href="/#">Blog</a>
                 <a href="/#">About me</a>
+                <a href="/#">Contact us</a>
                 <div
                     className="btn-group language-custom-corner"
                     role="group"
