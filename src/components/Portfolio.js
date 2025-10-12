@@ -27,29 +27,33 @@ const Portfolio = () => {
                                 <p className="para-text">Core-founder</p>
                             </div>
                         </div>
-                        <div className="profile-card">
+                        <div className="portfolio-card">
                             <img
                                 src={imgTwo}
                                 alt="Profile"
                                 className="profile-img"
                             />
-                            <div className="container text-container-profile">
-                                <h4 className="heading-text-profile">
-                                    Tanel Wirilander
-                                </h4>
+                            <div className="container text-container-portfolio">
                                 <p className="para-text">Head of Operations</p>
                             </div>
                         </div>
-                        <div className="profile-card">
+                        <div className="portfolio-card">
                             <img
                                 src={imgThree}
                                 alt="Profile"
                                 className="profile-img"
                             />
-                            <div className="container text-container-profile">
-                                <h4 className="heading-text-profile">
-                                    Sam Wije
-                                </h4>
+                            <div className="container text-container-portfolio">
+                                <p className="para-text">Head of Technology</p>
+                            </div>
+                        </div>
+                        <div className="portfolio-card">
+                            <img
+                                src={imgThree}
+                                alt="Profile"
+                                className="profile-img"
+                            />
+                            <div className="container text-container-portfolio">
                                 <p className="para-text">Head of Technology</p>
                             </div>
                         </div>
