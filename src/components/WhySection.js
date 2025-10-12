@@ -14,7 +14,7 @@ const WhySection = () => {
                 </p>
             </div>
 
-            <div className="container mt-5 custom-check-card">
+            <div className="container my-5 custom-check-card">
                 <ul className="custom-list">
                     <li>
                         <FaCheckCircle className="why-icon" />

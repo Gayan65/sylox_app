@@ -379,17 +379,13 @@ nav {
 
 /*profile section*/
 .profile-card {
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-
     max-width: 400px; /* gives enough room for profile image */
-
     overflow: hidden;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .profile-card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
 .profile-img {
@@ -397,4 +393,22 @@ nav {
     height: auto;
 
     display: block;
+}
+
+.text-container-profile {
+    padding: 2rem;
+    text-align: center;
+}
+
+.heading-text-profile {
+    font-size: 1.7rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #222222;
+}
+
+.custom-color-gradient {
+    background: linear-gradient(to bottom, #ffffff, #e7f6ff);
+    height: auto;
+    padding: 5% 0;
 }

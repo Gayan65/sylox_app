@@ -5,7 +5,7 @@ import imgThree from "../assets/images/management/Sam.jpg";
 
 const Management = () => {
     return (
-        <div className="container-fluid custom-color">
+        <div className="container-fluid custom-color-gradient">
             <div className="container text-container">
                 <h1 className="heading-text">Meet Our Leadership</h1>
                 <p className="para-text">
@@ -21,6 +21,12 @@ const Management = () => {
                             alt="Profile"
                             className="profile-img"
                         />
+                        <div className="container text-container-profile">
+                            <h4 className="heading-text-profile">
+                                Gayan Gamage
+                            </h4>
+                            <p className="para-text">Core-founder</p>
+                        </div>
                     </div>
                     <div className="profile-card">
                         <img
@@ -28,6 +34,12 @@ const Management = () => {
                             alt="Profile"
                             className="profile-img"
                         />
+                        <div className="container text-container-profile">
+                            <h4 className="heading-text-profile">
+                                Tanel Wirilander
+                            </h4>
+                            <p className="para-text">Head of Operations</p>
+                        </div>
                     </div>
                     <div className="profile-card">
                         <img
@@ -35,6 +47,10 @@ const Management = () => {
                             alt="Profile"
                             className="profile-img"
                         />
+                        <div className="container text-container-profile">
+                            <h4 className="heading-text-profile">Sam Wije</h4>
+                            <p className="para-text">Head of Technology</p>
+                        </div>
                     </div>
                 </div>
             </div>
