@@ -412,3 +412,28 @@ nav {
     height: auto;
     padding: 5% 0;
 }
+
+/*Fi Banner*/
+.custom-banner {
+    border-radius: 4px;
+    text-align: center;
+    padding: 2rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    background: linear-gradient(to right, #0066ff, #0369a1);
+}
+
+.custom-banner h1 {
+    font-size: 3rem;
+    color: #e6f0ff;
+}
+
+.custom-banner h3 {
+    font-size: 2rem;
+    color: #eee;
+}
+
+.custom-banner p {
+    font-size: 1rem;
+    color: #eee;
+}

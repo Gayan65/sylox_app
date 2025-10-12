@@ -3,6 +3,7 @@ import Hero from "../components/Hero";
 import Service from "../components/Service";
 import WhySection from "../components/WhySection";
 import Management from "../components/Management";
+import FiBanner from "../components/FiBanner";
 
 const Home = () => {
     return (
@@ -11,6 +12,7 @@ const Home = () => {
             <Service />
             <WhySection />
             <Management />
+            <FiBanner />
         </div>
     );
 };
