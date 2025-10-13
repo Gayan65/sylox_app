@@ -3,37 +3,37 @@ import logo from "../assets/images/logo/Sylox Logo White text co.png";
 
 const Footer = () => {
     return (
-        <footer class="footer">
-            <div class="container">
-                <div class="footer-content">
-                    <div class="footer-section about">
-                        <div class="logo">
+        <footer className="footer">
+            <div className="container">
+                <div className="footer-content">
+                    <div className="footer-section about">
+                        <div className="logo">
                             <img src={logo} alt="Logo" />
                         </div>
                         <p>
                             SYLOX provides professional software development for
                             Finnish SMEs and large enterprises.
                         </p>
-                        <div class="socials">
+                        <div className="socials">
                             <a href="#">
-                                <i class="bi bi-facebook"></i>
+                                <i className="bi bi-facebook"></i>
                             </a>
                             <a href="#">
-                                <i class="bi bi-twitter"></i>
+                                <i className="bi bi-twitter"></i>
                             </a>
                             <a href="#">
-                                <i class="bi bi-google"></i>
+                                <i className="bi bi-google"></i>
                             </a>
                             <a href="#">
-                                <i class="bi bi-instagram"></i>
+                                <i className="bi bi-instagram"></i>
                             </a>
                             <a href="#">
-                                <i class="bi bi-linkedin"></i>
+                                <i className="bi bi-linkedin"></i>
                             </a>
                         </div>
                     </div>
 
-                    <div class="footer-section">
+                    <div className="footer-section">
                         <h3 className="custom-footer-text">Company</h3>
                         <ul>
                             <li>
@@ -51,7 +51,7 @@ const Footer = () => {
                         </ul>
                     </div>
 
-                    <div class="footer-section">
+                    <div className="footer-section">
                         <h3 className="custom-footer-text">Business</h3>
                         <ul>
                             <li>
@@ -69,7 +69,7 @@ const Footer = () => {
                         </ul>
                     </div>
 
-                    <div class="footer-section contact">
+                    <div className="footer-section contact">
                         <h3 className="custom-footer-text">Get In Touch</h3>
                         <p className="custom-footer-text">
                             Raviradantie 7, Mikkeli 50100, Finland
@@ -81,7 +81,7 @@ const Footer = () => {
                 </div>
             </div>
 
-            <div class="footer-bottom">
+            <div className="footer-bottom">
                 <p>Copyright © 2025 SYLOX | Powered by Sylox</p>
             </div>
         </footer>

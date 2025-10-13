@@ -28,18 +28,10 @@ function NavBar() {
                 style={{ width: 150, paddingTop: 6 }}
             />
             <nav ref={navRef}>
+                <a href="/">Home</a>
                 <Link
                     className="scroll-link"
-                    to="heroCarousel"
-                    spy={true}
-                    smooth={true}
-                    offset={0}
-                    duration={500}
-                >
-                    Home
-                </Link>
-                <Link
-                    className="scroll-link"
+                    activeClass="active-link"
                     to="services-section-scroll"
                     spy={true}
                     smooth={true}
@@ -50,6 +42,7 @@ function NavBar() {
                 </Link>
                 <Link
                     className="scroll-link"
+                    activeClass="active-link"
                     to="why-section-scroll"
                     spy={true}
                     smooth={true}
@@ -60,6 +53,7 @@ function NavBar() {
                 </Link>
                 <Link
                     className="scroll-link"
+                    activeClass="active-link"
                     to="management-section-scroll"
                     spy={true}
                     smooth={true}
@@ -70,6 +64,7 @@ function NavBar() {
                 </Link>
                 <Link
                     className="scroll-link"
+                    activeClass="active-link"
                     to="portfolio-section-scroll"
                     spy={true}
                     smooth={true}
@@ -80,6 +75,7 @@ function NavBar() {
                 </Link>
                 <Link
                     className="scroll-link"
+                    activeClass="active-link"
                     to="contact-section-scroll"
                     spy={true}
                     smooth={true}
