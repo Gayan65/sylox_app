@@ -1,6 +1,5 @@
 import { useRef, useState, useEffect } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
-import logo from "../assets/images/logo/Sylox white transparent.png";
 import logoColour from "../assets/images/logo/Sylox Logo White text co.png";
 
 function NavBar() {

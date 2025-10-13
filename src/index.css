@@ -13,9 +13,9 @@ code {
 }
 
 :root {
-    --mainColor: #29335c;
+    --mainColor: #242a5e;
     --mainColorLight: #5767aa;
-    --secondaryColor: #db2b39;
+    --secondaryColor: #008fcc;
     --textColor: #eee;
 }
 
@@ -37,7 +37,7 @@ header {
 
 /* When scrolled */
 header.scrolled {
-    background: rgb(29, 59, 116) !important; /* slightly darker blue tone */
+    background: var(--mainColor) !important; /* slightly darker blue tone */
     backdrop-filter: blur(8px);
 }
 
@@ -172,6 +172,16 @@ nav {
     display: inline-block;
     align-self: flex-start;
     text-align: left;
+    background-color: #00aeef;
+    border: #00aeef solid 1px !important;
+    box-shadow: 0 4px 10px rgba(0, 174, 239, 0.3); /* Default shadow */
+}
+
+.hero-caption .btn:hover {
+    background-color: #008fcc; /* Slightly darker blue */
+    border: #00aeef solid 1px !important;
+    transform: translateY(-1px); /* Lift-up effect */
+    box-shadow: 0 4px 10px rgba(0, 174, 239, 0.4); /* Subtle glow */
 }
 
 /*hero media*/
@@ -282,15 +292,15 @@ nav {
 
 /* Icon section */
 .service-icon {
-    background: #e6f0ff;
+    background: transparent;
     width: 50px;
     height: 50px;
     border-radius: 12px;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #0066ff;
-    font-size: 1.8rem;
+    color: #1f79d8;
+    font-size: 2.8rem;
     margin-bottom: 16px;
 }
 
@@ -319,8 +329,8 @@ nav {
 }
 
 .service-tags span {
-    background: #e8f3ff;
-    color: #0369a1;
+    background: var(--textColor);
+    color: var(--secondaryColor);
     font-size: 0.9rem;
     padding: 6px 12px;
     border-radius: 20px;
@@ -367,8 +377,8 @@ nav {
 }
 
 .why-icon {
-    color: #0066ff;
-    font-size: 1.5rem;
+    color: #1f79d8;
+    font-size: 2rem;
     flex-shrink: 0; /* prevents icon from resizing */
     margin-top: 0.3rem; /* slight tweak to align with text visually */
 }
@@ -421,7 +431,11 @@ nav {
     padding: 2rem;
     margin-top: 4rem;
     margin-bottom: 4rem;
-    background: linear-gradient(to right, #0066ff, #0369a1);
+    background: linear-gradient(
+        to right,
+        var(--mainColor),
+        var(--secondaryColor)
+    );
 }
 
 .custom-banner h1 {
@@ -509,7 +523,7 @@ body {
 .contact-form textarea {
     width: 100%;
     padding: 12px 10px;
-    border: 1px solid #0066ff;
+    border: 1px solid var(--secondaryColor);
     border-radius: 4px;
     font-size: 1rem;
     background-color: #fff;
@@ -523,7 +537,7 @@ body {
 
 /* Button styling */
 .send-btn {
-    background-color: #0066ff;
+    background-color: var(--secondaryColor);
     color: #fff;
     border: none;
     padding: 12px 20px;
@@ -536,7 +550,7 @@ body {
 }
 
 .send-btn:hover {
-    background-color: #0a1f44;
+    background-color: var(--mainColor);
 }
 
 /* Responsive */
@@ -549,7 +563,7 @@ body {
 
 /*footer section*/
 .footer {
-    background-color: #0c0b14;
+    background-color: var(--mainColor);
     padding: 60px 0 20px;
 }
 
