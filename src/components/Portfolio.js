@@ -16,45 +16,95 @@ const Portfolio = () => {
                     </p>
                 </div>
                 <div className="container mt-5">
-                    <div className="d-flex flex-wrap justify-content-center gap-4">
-                        <div className="portfolio-card">
-                            <img
-                                src={imgOne}
-                                alt="Profile"
-                                className="profile-img"
-                            />
-                            <div className="container text-container-portfolio">
-                                <p className="para-text">Core-founder</p>
+                    <div className="row justify-content-center g-4">
+                        <div className="col-12 col-sm-6 col-lg-3">
+                            <div className="portfolio-card h-100">
+                                <img
+                                    src={imgOne}
+                                    alt="Profile"
+                                    className="profile-img"
+                                />
+                                <div className="container text-container-portfolio">
+                                    <p className="para-text">
+                                        An automated parking reservation web
+                                        application that allows users to easily
+                                        find, reserve, and manage parking spaces
+                                        in real time. The system features secure
+                                        user authentication, dynamic slot
+                                        availability, and an intuitive interface
+                                        for both customers and administrators.
+                                        Built using React, Node.js, and MongoDB,
+                                        it streamlines the parking process
+                                        through automation and smart data
+                                        management.
+                                    </p>
+                                </div>
                             </div>
                         </div>
-                        <div className="portfolio-card">
-                            <img
-                                src={imgTwo}
-                                alt="Profile"
-                                className="profile-img"
-                            />
-                            <div className="container text-container-portfolio">
-                                <p className="para-text">Head of Operations</p>
+                        <div className="col-12 col-sm-6 col-lg-3">
+                            <div className="portfolio-card h-100">
+                                <img
+                                    src={imgTwo}
+                                    alt="Profile"
+                                    className="profile-img"
+                                />
+                                <div className="container text-container-portfolio">
+                                    <p className="para-text">
+                                        An automated parking reservation web
+                                        application that allows users to easily
+                                        find, reserve, and manage parking spaces
+                                        in real time. The system features secure
+                                        user authentication, dynamic slot
+                                        availability, and an intuitive interface
+                                        for both customers and administrators.
+                                        Built using React, Node.js, and MongoDB.
+                                    </p>
+                                </div>
                             </div>
                         </div>
-                        <div className="portfolio-card">
-                            <img
-                                src={imgThree}
-                                alt="Profile"
-                                className="profile-img"
-                            />
-                            <div className="container text-container-portfolio">
-                                <p className="para-text">Head of Technology</p>
+
+                        <div className="col-12 col-sm-6 col-lg-3">
+                            <div className="portfolio-card h-100">
+                                <img
+                                    src={imgThree}
+                                    alt="Profile"
+                                    className="profile-img"
+                                />
+                                <div className="container text-container-portfolio">
+                                    <p className="para-text">
+                                        An automated parking reservation web
+                                        application that allows users to easily
+                                        find, reserve, and manage parking spaces
+                                        in real time. The system features secure
+                                        user authentication, dynamic slot
+                                        availability, and an intuitive interface
+                                        for both customers and administrators.
+                                        Built using React, Node.js, and MongoDB,
+                                        it streamlines
+                                    </p>
+                                </div>
                             </div>
                         </div>
-                        <div className="portfolio-card">
-                            <img
-                                src={imgThree}
-                                alt="Profile"
-                                className="profile-img"
-                            />
-                            <div className="container text-container-portfolio">
-                                <p className="para-text">Head of Technology</p>
+                        <div className="col-12 col-sm-6 col-lg-3">
+                            <div className="portfolio-card h-100">
+                                <img
+                                    src={imgThree}
+                                    alt="Profile"
+                                    className="profile-img"
+                                />
+                                <div className="container text-container-portfolio">
+                                    <p className="para-text">
+                                        An automated parking reservation web
+                                        application that allows users to easily
+                                        find, reserve, and manage parking spaces
+                                        in real time. The system features secure
+                                        user authentication, dynamic slot
+                                        availability, and an intuitive interface
+                                        for both customers and administrators.
+                                        Built using React, Node.js, and MongoDB,
+                                        it streamlines
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
