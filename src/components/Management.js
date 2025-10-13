@@ -5,7 +5,10 @@ import imgThree from "../assets/images/management/Sam.jpg";
 
 const Management = () => {
     return (
-        <div className="container-fluid custom-color-gradient">
+        <div
+            className="container-fluid custom-color-gradient"
+            id="management-section-scroll"
+        >
             <div className="container text-container">
                 <h1 className="heading-text">Meet Our Leadership</h1>
                 <p className="para-text">

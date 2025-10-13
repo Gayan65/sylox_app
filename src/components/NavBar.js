@@ -1,6 +1,7 @@
 import { useRef, useState, useEffect } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import logoColour from "../assets/images/logo/Sylox Logo White text co.png";
+import { Link } from "react-scroll";
 
 function NavBar() {
     const navRef = useRef();
@@ -27,11 +28,66 @@ function NavBar() {
                 style={{ width: 150, paddingTop: 6 }}
             />
             <nav ref={navRef}>
-                <a href="/#">Home</a>
-                <a href="/#">About us</a>
-                <a href="/#">Blog</a>
-                <a href="/#">About me</a>
-                <a href="/#">Contact us</a>
+                <Link
+                    className="scroll-link"
+                    to="heroCarousel"
+                    spy={true}
+                    smooth={true}
+                    offset={0}
+                    duration={500}
+                >
+                    Home
+                </Link>
+                <Link
+                    className="scroll-link"
+                    to="services-section-scroll"
+                    spy={true}
+                    smooth={true}
+                    offset={-50}
+                    duration={500}
+                >
+                    Our services
+                </Link>
+                <Link
+                    className="scroll-link"
+                    to="why-section-scroll"
+                    spy={true}
+                    smooth={true}
+                    offset={-50}
+                    duration={500}
+                >
+                    About us
+                </Link>
+                <Link
+                    className="scroll-link"
+                    to="management-section-scroll"
+                    spy={true}
+                    smooth={true}
+                    offset={-50}
+                    duration={500}
+                >
+                    Our management
+                </Link>
+                <Link
+                    className="scroll-link"
+                    to="portfolio-section-scroll"
+                    spy={true}
+                    smooth={true}
+                    offset={-50}
+                    duration={500}
+                >
+                    Portfolio
+                </Link>
+                <Link
+                    className="scroll-link"
+                    to="contact-section-scroll"
+                    spy={true}
+                    smooth={true}
+                    offset={-50}
+                    duration={500}
+                >
+                    Contact us
+                </Link>
                 <div
                     className="btn-group language-custom-corner"
                     role="group"

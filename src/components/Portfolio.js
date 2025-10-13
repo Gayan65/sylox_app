@@ -7,7 +7,10 @@ const Portfolio = () => {
     return (
         <div>
             {" "}
-            <div className="container-fluid custom-color-gradient">
+            <div
+                className="container-fluid custom-color-gradient"
+                id="portfolio-section-scroll"
+            >
                 <div className="container text-container">
                     <h1 className="heading-text">Recent Projects</h1>
                     <p className="para-text">

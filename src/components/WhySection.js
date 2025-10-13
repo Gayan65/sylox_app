@@ -3,7 +3,7 @@ import { FaCheckCircle } from "react-icons/fa";
 
 const WhySection = () => {
     return (
-        <div className="container-fluid custom-color">
+        <div className="container-fluid custom-color" id="why-section-scroll">
             <div className="container text-container">
                 <h1 className="heading-text">Why Sylox ?</h1>
                 <p className="para-text text-start">

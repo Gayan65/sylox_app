@@ -2,7 +2,10 @@ import React from "react";
 
 const Contact = () => {
     return (
-        <div className="container-fluid custom-color">
+        <div
+            className="container-fluid custom-color"
+            id="contact-section-scroll"
+        >
             <div className="container text-container">
                 <h1 className="heading-text">Get In Touch</h1>
                 <p className="para-text">

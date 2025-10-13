@@ -5,7 +5,10 @@ import { FaNetworkWired } from "react-icons/fa";
 
 const Service = () => {
     return (
-        <div className="container-fluid custom-color">
+        <div
+            className="container-fluid custom-color"
+            id="services-section-scroll"
+        >
             <div className="container text-container">
                 <h1 className="heading-text">Our Services</h1>
                 <p className="para-text">

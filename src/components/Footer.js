@@ -82,7 +82,7 @@ const Footer = () => {
             </div>
 
             <div class="footer-bottom">
-                <p>Copyright © 2025 My Blog | Powered by My Blog</p>
+                <p>Copyright © 2025 SYLOX | Powered by Sylox</p>
             </div>
         </footer>
     );
