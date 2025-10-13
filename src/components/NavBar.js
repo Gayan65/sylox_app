@@ -51,7 +51,7 @@ function NavBar() {
                     offset={-50}
                     duration={500}
                 >
-                    Our services
+                    Services
                 </Link>
                 <Link
                     className="scroll-link"
@@ -62,7 +62,7 @@ function NavBar() {
                     offset={-50}
                     duration={500}
                 >
-                    About us
+                    About
                 </Link>
                 <Link
                     className="scroll-link"
@@ -95,7 +95,7 @@ function NavBar() {
                     offset={-50}
                     duration={500}
                 >
-                    Contact us
+                    Contact
                 </Link>
                 <div
                     className="btn-group language-custom-corner"
