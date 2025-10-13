@@ -5,6 +5,7 @@ import WhySection from "../components/WhySection";
 import Management from "../components/Management";
 import FiBanner from "../components/FiBanner";
 import Portfolio from "../components/Portfolio";
+import Contact from "../components/Contact";
 
 const Home = () => {
     return (
@@ -15,6 +16,7 @@ const Home = () => {
             <Management />
             <FiBanner />
             <Portfolio />
+            <Contact />
         </div>
     );
 };
