@@ -1,5 +1,6 @@
 import { useRef, useState, useEffect } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
+import logo from "../assets/images/logo/Sylox white transparent.png";
 
 function NavBar() {
     const navRef = useRef();
@@ -20,7 +21,7 @@ function NavBar() {
 
     return (
         <header className={isScrolled ? "scrolled" : ""}>
-            <h3>LOGO</h3>
+            <img src={logo} alt="Logo" style={{ width: 150, paddingTop: 6 }} />
             <nav ref={navRef}>
                 <a href="/#">Home</a>
                 <a href="/#">About us</a>

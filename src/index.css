@@ -32,6 +32,7 @@ header {
     top: 0;
     left: 0;
     width: 100%;
+    transition: background-color 0.4s ease, backdrop-filter 0.4s ease; /* Smooth transition */
 }
 
 /* When scrolled */
