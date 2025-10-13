@@ -5,10 +5,17 @@ import { Link } from "react-scroll";
 
 function NavBar() {
     const navRef = useRef();
+    const overlayRef = useRef();
     const [isScrolled, setIsScrolled] = useState(false);
 
     const showNavbar = () => {
         navRef.current.classList.toggle("responsive_nav");
+        overlayRef.current.classList.add("active");
+    };
+
+    const hideNavbar = () => {
+        navRef.current.classList.remove("responsive_nav");
+        overlayRef.current.classList.remove("active");
     };
 
     useEffect(() => {
@@ -27,6 +34,12 @@ function NavBar() {
                 alt="Logo"
                 style={{ width: 150, paddingTop: 6 }}
             />
+            <div
+                className="nav-overlay"
+                ref={overlayRef}
+                onClick={hideNavbar}
+            ></div>{" "}
+            {/* overlay */}
             <nav ref={navRef}>
                 <a href="/">Home</a>
                 <Link
@@ -60,7 +73,7 @@ function NavBar() {
                     offset={-50}
                     duration={500}
                 >
-                    Our management
+                    Management
                 </Link>
                 <Link
                     className="scroll-link"
@@ -99,9 +112,6 @@ function NavBar() {
                         FI
                     </button>
                 </div>
-                <button className="nav-btn nav-close-btn" onClick={showNavbar}>
-                    <FaTimes />
-                </button>
             </nav>
             <button className="nav-btn" onClick={showNavbar}>
                 <FaBars />

@@ -84,43 +84,95 @@ nav {
     right: 2rem;
 }
 
-@media only screen and (max-width: 1024px) {
+@media (max-width: 1024px) {
     header .nav-btn {
         visibility: visible;
         opacity: 1;
     }
 
+    /* Navigation sidebar */
     header nav {
         position: fixed;
-        top: -100vh;
-        left: 0;
+        top: 0;
+        right: -100%; /* start hidden off-screen */
         height: 100vh;
-        width: 100%;
+        width: 20%; /* take 20% of screen */
         display: flex;
         flex-direction: column;
-        align-items: center;
-        justify-content: center;
+        align-items: flex;
+        justify-content: flex-start;
         gap: 1.5rem;
-        background-color: rgb(29, 59, 116) !important;
+        padding: 2rem;
+        background-color: var(--mainColor);
         backdrop-filter: blur(15px);
-        transition: 1s;
+        transition: right 0.4s ease;
+        z-index: 11;
     }
 
-    .language-custom-corner {
-        position: static;
-    }
     header .responsive_nav {
-        transform: translateY(100vh);
+        right: 0; /* slide in from right */
+    }
+
+    /* Full-screen dark overlay behind the menu */
+    .nav-overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background: rgba(0, 0, 0, 0.5);
+        opacity: 0;
+        visibility: hidden;
+        transition: opacity 0.4s ease;
+        z-index: 10;
+    }
+
+    .nav-overlay.active {
+        opacity: 1;
+        visibility: visible;
     }
 
     nav .nav-close-btn {
         position: absolute;
         top: 2rem;
-        right: 2rem;
+        right: 1rem;
     }
 
     nav a {
-        font-size: 1.5rem;
+        font-size: 1rem;
+    }
+
+    .language-custom-corner {
+        position: static;
+    }
+}
+
+@media (max-width: 909px) {
+    header nav {
+        width: 30%;
+    }
+}
+
+@media (max-width: 607px) {
+    header nav {
+        padding: 1rem;
+    }
+
+    nav a {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 472px) {
+    header nav {
+        width: 50%; /* take 20% of screen */
+        justify-content: center;
+        gap: 1.5rem;
+        padding: 1rem;
+    }
+
+    nav a {
+        font-size: 0.8rem;
     }
 }
 
