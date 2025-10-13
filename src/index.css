@@ -616,7 +616,7 @@ body {
 }
 
 .footer .logo img {
-    width: 40px;
+    width: 15rem;
 }
 
 .footer .logo h2 {
@@ -648,6 +648,10 @@ body {
     padding-top: 15px;
     color: #ccc;
     font-size: 0.9rem;
+}
+
+.custom-footer-text {
+    color: #00aeef;
 }
 
 @media (max-width: 768px) {

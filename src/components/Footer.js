@@ -1,4 +1,5 @@
 import React from "react";
+import logo from "../assets/images/logo/Sylox Logo White text co.png";
 
 const Footer = () => {
     return (
@@ -7,16 +8,11 @@ const Footer = () => {
                 <div class="footer-content">
                     <div class="footer-section about">
                         <div class="logo">
-                            <img
-                                src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg"
-                                alt="Logo"
-                            />
-                            <h2>Digital Agency</h2>
+                            <img src={logo} alt="Logo" />
                         </div>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit. Ut elit tellus, luctus nec ullamcorper mattis,
-                            pulvinar dapibus leo.
+                            SYLOX provides professional software development for
+                            Finnish SMEs and large enterprises.
                         </p>
                         <div class="socials">
                             <a href="#">
@@ -38,7 +34,7 @@ const Footer = () => {
                     </div>
 
                     <div class="footer-section">
-                        <h3>Company</h3>
+                        <h3 className="custom-footer-text">Company</h3>
                         <ul>
                             <li>
                                 <a href="#">Home</a>
@@ -56,7 +52,7 @@ const Footer = () => {
                     </div>
 
                     <div class="footer-section">
-                        <h3>Business</h3>
+                        <h3 className="custom-footer-text">Business</h3>
                         <ul>
                             <li>
                                 <a href="#">Project</a>
@@ -74,11 +70,13 @@ const Footer = () => {
                     </div>
 
                     <div class="footer-section contact">
-                        <h3>Get In Touch</h3>
-                        <p>Rt. 66, Downtown, Washington, DC</p>
-                        <p>info@example.com</p>
-                        <p>1-800-1234-567</p>
-                        <p>+001 987-654-3210</p>
+                        <h3 className="custom-footer-text">Get In Touch</h3>
+                        <p className="custom-footer-text">
+                            Raviradantie 7, Mikkeli 50100, Finland
+                        </p>
+                        <p className="custom-footer-text">info@sylox.fi</p>
+                        <p className="custom-footer-text">041 470 2987 </p>
+                        <p className="custom-footer-text">+358 414 702 987</p>
                     </div>
                 </div>
             </div>
