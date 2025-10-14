@@ -2,19 +2,18 @@ import React from "react";
 import { FaDesktop } from "react-icons/fa";
 import { FaMobileAlt } from "react-icons/fa";
 import { FaNetworkWired } from "react-icons/fa";
+import { useTranslation } from "react-i18next";
 
 const Service = () => {
+    const { t } = useTranslation("global");
     return (
         <div
             className="container-fluid custom-color"
             id="services-section-scroll"
         >
             <div className="container text-container">
-                <h1 className="heading-text">Our Services</h1>
-                <p className="para-text">
-                    From concept to development, we provide comprehensive
-                    software solutions.
-                </p>
+                <h1 className="heading-text"> {t("heading_services")} </h1>
+                <p className="para-text">{t("para_services")}</p>
             </div>
 
             <div className="container mt-5">
@@ -25,17 +24,17 @@ const Service = () => {
                         </div>
 
                         <h4 className="service-title">
-                            Websites & Web Applications
+                            {t("heading_card1_services")}
                         </h4>
 
                         <ul className="service-list">
-                            <li>Corporate websites and marketing sites</li>
-                            <li>E-commerce solutions</li>
-                            <li>Customer portals and management systems</li>
-                            <li>Web-based SaaS development</li>
-                            <li>API integrations and backend development</li>
-                            <li>WordPress and Drupal CMS solutions</li>
-                            <li>SEO optimization and analytics</li>
+                            <li> {t("l1_card1")} </li>
+                            <li>{t("l2_card1")}</li>
+                            <li>{t("l3_card1")}</li>
+                            <li>{t("l4_card1")}</li>
+                            <li>{t("l5_card1")}</li>
+                            <li>{t("l6_card1")}</li>
+                            <li>{t("l7_card1")}</li>
                         </ul>
 
                         <div className="service-tags">
@@ -56,17 +55,17 @@ const Service = () => {
                         </div>
 
                         <h4 className="service-title">
-                            Enterprise Systems & Digital Transformation
+                            {t("heading_card2_services")}
                         </h4>
 
                         <ul className="service-list">
-                            <li>ERP and CRM systems</li>
-                            <li>Customer relationship management solutions</li>
-                            <li>Business process automation</li>
-                            <li>Business Intelligence and data analytics</li>
-                            <li>Legacy system modernization</li>
-                            <li>IoT solutions and integrations</li>
-                            <li>AI and machine learning solutions</li>
+                            <li> {t("l1_card2")} </li>
+                            <li>{t("l2_card2")}</li>
+                            <li>{t("l3_card2")}</li>
+                            <li>{t("l4_card2")}</li>
+                            <li>{t("l5_card2")}</li>
+                            <li>{t("l6_card2")}</li>
+                            <li>{t("l7_card2")}</li>
                         </ul>
 
                         <div className="service-tags">
@@ -87,21 +86,18 @@ const Service = () => {
                         </div>
 
                         <h4 className="service-title">
-                            Mobile Applications for iOS & Android
+                            {t("heading_card3_services")}
                         </h4>
 
                         <ul className="service-list">
-                            <li>Native iOS, Android, and HMS applications</li>
-                            <li>
-                                Cross-platform development (React Native,
-                                Flutter)
-                            </li>
-                            <li>Mobile UX design</li>
-                            <li>App Store and Google Play releases</li>
-                            <li>Push notifications and real-time features</li>
-                            <li>Offline functionality</li>
-                            <li>Mobile backend development</li>
-                            <li>App updates and maintenance</li>
+                            <li> {t("l1_card3")} </li>
+                            <li>{t("l2_card3")}</li>
+                            <li>{t("l3_card3")}</li>
+                            <li>{t("l4_card3")}</li>
+                            <li>{t("l5_card3")}</li>
+                            <li>{t("l6_card3")}</li>
+                            <li>{t("l7_card3")}</li>
+                            <li>{t("l7_card3")}</li>
                         </ul>
 
                         <div className="service-tags">

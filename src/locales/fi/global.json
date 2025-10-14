@@ -9,5 +9,36 @@
     "about_nav": "Tietoa meistä",
     "management_nav": "Johto",
     "portfolio_nav": "Portfolio",
-    "contact_nav": "Yhteystiedot"
+    "contact_nav": "Yhteystiedot",
+
+    "heading_services": "Palvelumme",
+    "para_services": "Ideasta toteutukseen – tarjoamme kattavat ohjelmistoratkaisut.",
+
+    "heading_card1_services": "Verkkosivustot & Web-sovellukset",
+    "l1_card1": "Yritysten verkkosivustot ja markkinointisivustot",
+    "l2_card1": "Verkkokaupparatkaisut",
+    "l3_card1": "Asiakaspalveluportaalit ja hallintajärjestelmät",
+    "l4_card1": "Verkkopohjainen SaaS-kehitys",
+    "l5_card1": "API-integraatiot ja backend-kehitys",
+    "l6_card1": "WordPress- ja Drupal-sisällönhallintajärjestelmät",
+    "l7_card1": "SEO-optimointi ja analytiikka",
+
+    "heading_card2_services": "Yritysjärjestelmät & Digitaalinen transformaatio",
+    "l1_card2": "ERP- ja CRM-järjestelmät",
+    "l2_card2": "Asiakassuhteen hallintaratkaisut",
+    "l3_card2": "BLiiketoimintaprosessien automaatio",
+    "l4_card2": "Business Intelligence ja data-analytiikka",
+    "l5_card2": "Perintöjärjestelmien modernisointi",
+    "l6_card2": "IoT-ratkaisut ja integraatiot",
+    "l7_card2": "AI- ja koneoppimisratkaisut",
+
+    "heading_card3_services": "Mobiilisovellukset iOS:lle & Androidille",
+    "l1_card3": "Natiivisovellukset iOS:lle, Androidille ja HMS:lle",
+    "l2_card3": "Monialustakehitys (React Native, Flutter)",
+    "l3_card3": "Mobiilikäyttöliittymien suunnittelu (UX)",
+    "l4_card3": "App Store- ja Google Play -julkaisut",
+    "l5_card3": "Push-ilmoitukset ja reaaliaikaiset ominaisuudet",
+    "l6_card3": "Offline-toiminnallisuus",
+    "l7_card3": "Mobiilihakemusten backend-kehitys",
+    "l8_card3": "Sovelluspäivitykset ja ylläpito"
 }

@@ -9,5 +9,36 @@
     "about_nav": "About",
     "management_nav": "Management",
     "portfolio_nav": "Portfolio",
-    "contact_nav": "Contact"
+    "contact_nav": "Contact",
+
+    "heading_services": "Our Services",
+    "para_services": "From concept to development, we provide comprehensive software solutions.",
+
+    "heading_card1_services": "Websites & Web Applications",
+    "l1_card1": "Corporate websites and marketing sites",
+    "l2_card1": "E-commerce solutions",
+    "l3_card1": "Customer portals and management systems",
+    "l4_card1": "Web-based SaaS development",
+    "l5_card1": "API integrations and backend development",
+    "l6_card1": "WordPress and Drupal CMS solutions",
+    "l7_card1": "SEO optimization and analytics",
+
+    "heading_card2_services": "Enterprise Systems & Digital Transformation",
+    "l1_card2": "ERP and CRM systems",
+    "l2_card2": "Customer relationship management solutions",
+    "l3_card2": "Business process automation",
+    "l4_card2": "Business Intelligence and data analytics",
+    "l5_card2": "Legacy system modernization",
+    "l6_card2": "IoT solutions and integrations",
+    "l7_card2": "AI and machine learning solutions",
+
+    "heading_card3_services": "Mobile Applications for iOS & Android",
+    "l1_card3": "Native iOS, Android, and HMS applications",
+    "l2_card3": "Cross-platform development (React Native, Flutter)",
+    "l3_card3": "Mobile UX design",
+    "l4_card3": "App Store and Google Play releases",
+    "l5_card3": "Push notifications and real-time features",
+    "l6_card3": "Offline functionality",
+    "l7_card3": "Mobile backend development",
+    "l8_card3": "App updates and maintenance"
 }
