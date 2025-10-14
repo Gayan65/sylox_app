@@ -1,6 +1,7 @@
 import React from "react";
 import logo from "../assets/images/logo/Sylox Logo White text co.png";
 import { useTranslation } from "react-i18next";
+import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa";
 
 const Footer = () => {
     const { t } = useTranslation("global");
@@ -15,19 +16,16 @@ const Footer = () => {
                         <p>{t("header_sub2_hero")}</p>
                         <div className="socials">
                             <a href="#">
-                                <i className="bi bi-facebook"></i>
+                                <FaFacebook />
                             </a>
                             <a href="#">
-                                <i className="bi bi-twitter"></i>
+                                <FaTwitter />
                             </a>
                             <a href="#">
-                                <i className="bi bi-google"></i>
+                                <FaInstagram />
                             </a>
                             <a href="#">
-                                <i className="bi bi-instagram"></i>
-                            </a>
-                            <a href="#">
-                                <i className="bi bi-linkedin"></i>
+                                <FaLinkedin />
                             </a>
                         </div>
                     </div>
