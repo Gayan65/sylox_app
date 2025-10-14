@@ -1,7 +1,9 @@
 import React from "react";
 import logo from "../assets/images/logo/Sylox Logo White text co.png";
+import { useTranslation } from "react-i18next";
 
 const Footer = () => {
+    const { t } = useTranslation("global");
     return (
         <footer className="footer">
             <div className="container">
@@ -10,10 +12,7 @@ const Footer = () => {
                         <div className="logo">
                             <img src={logo} alt="Logo" />
                         </div>
-                        <p>
-                            SYLOX provides professional software development for
-                            Finnish SMEs and large enterprises.
-                        </p>
+                        <p>{t("header_sub2_hero")}</p>
                         <div className="socials">
                             <a href="#">
                                 <i className="bi bi-facebook"></i>

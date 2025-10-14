@@ -1,17 +1,15 @@
 import React from "react";
 import { FaCheckCircle } from "react-icons/fa";
+import { useTranslation } from "react-i18next";
 
 const WhySection = () => {
+    const { t } = useTranslation("global");
+
     return (
         <div className="container-fluid custom-color" id="why-section-scroll">
             <div className="container text-container">
-                <h1 className="heading-text">Why Sylox ?</h1>
-                <p className="para-text text-start">
-                    Based in Finland, we combine Nordic design principles with
-                    cutting-edge technology to deliver exceptional software
-                    solutions. Our team of experienced developers is committed
-                    to quality, innovation and client satisfaction.
-                </p>
+                <h1 className="heading-text"> {t("heading_why")} </h1>
+                <p className="para-text text-start">{t("para_why")}</p>
             </div>
 
             <div className="container my-5 custom-check-card">
@@ -19,53 +17,41 @@ const WhySection = () => {
                     <li>
                         <FaCheckCircle className="why-icon" />
                         <div className="list-text">
-                            <strong>
-                                Finnish Quality & Global Experience:
-                            </strong>{" "}
-                            Nordic standards, international project delivery,
-                            Finnish language and culture expertise, local
-                            meetings, General Data Protection Regulation (GDPR)
-                            compliance, same time zone.
+                            <strong>{t("l1_why_strong")}</strong>{" "}
+                            {t("l1_why_normal")}
                         </div>
                     </li>
 
                     <li>
                         <FaCheckCircle className="why-icon" />
                         <div className="list-text">
-                            <strong>Agile & Transparent Development:</strong>{" "}
-                            Uses Agile/Scrum for flexible management, regular
-                            sprints/demos, fast response to changes, clear
-                            timelines/budgets, transparent progress tracking.
+                            <strong>{t("l2_why_strong")}</strong>{" "}
+                            {t("l2_why_normal")}
                         </div>
                     </li>
 
                     <li>
                         <FaCheckCircle className="why-icon" />
                         <div className="list-text">
-                            <strong>Technical Excellence:</strong> 12+ years’
-                            experience, certified experts (Scrum, cloud),
-                            full-stack, DevOps/CI/CD, emphasis on security and
-                            analytics, ongoing learning.
+                            <strong>{t("l3_why_strong")}</strong> 12+ years’
+                            {t("l3_why_normal")}
                         </div>
                     </li>
 
                     <li>
                         <FaCheckCircle className="why-icon" />
                         <div className="list-text">
-                            <strong>Customer Focus:</strong> Free consultation,
-                            tailored solutions, Finnish documentation,
-                            training/onboarding, long-term support and
-                            maintenance.
+                            <strong>{t("l4_why_strong")}</strong> Free
+                            consultation,
+                            {t("l4_why_normal")}
                         </div>
                     </li>
 
                     <li>
                         <FaCheckCircle className="why-icon" />
                         <div className="list-text">
-                            <strong>Cost-Effective & Flexible Models:</strong>{" "}
-                            Includes fixed-price, dedicated teams, staff
-                            augmentation, retainer, and maintenance/support
-                            contracts to meet diverse needs and budgets.
+                            <strong>{t("l5_why_strong")}</strong>{" "}
+                            {t("l5_why_normal")}
                         </div>
                     </li>
                 </ul>

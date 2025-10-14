@@ -40,5 +40,45 @@
     "l5_card3": "Push notifications and real-time features",
     "l6_card3": "Offline functionality",
     "l7_card3": "Mobile backend development",
-    "l8_card3": "App updates and maintenance"
+    "l8_card3": "App updates and maintenance",
+
+    "heading_why": "Why Sylox?",
+    "para_why": "Based in Finland, we combine Nordic design principles with cutting-edge technology to deliver exceptional software solutions. Our team of experienced developers is committed to quality, innovation and client satisfaction.",
+    "l1_why_strong": "Finnish Quality & Global Experience: ",
+    "l1_why_normal": "Nordic standards, international project delivery, Finnish language and culture expertise, local meetings, General Data Protection Regulation (GDPR) compliance, same time zone. ",
+    "l2_why_strong": "Agile & Transparent Development:  ",
+    "l2_why_normal": "Uses Agile/Scrum for flexible management, regular sprints/demos, fast response to changes, clear timelines/budgets, transparent progress tracking.",
+    "l3_why_strong": "Technical Excellence:  ",
+    "l3_why_normal": "12+ years’ experience, certified experts (Scrum, cloud), full-stack, DevOps/CI/CD, emphasis on security and analytics, ongoing learning.",
+    "l4_why_strong": "Customer Focus: ",
+    "l4_why_normal": "Free consultation, tailored solutions, Finnish documentation, training/onboarding, long-term support and maintenance.",
+    "l5_why_strong": "Cost-Effective & Flexible Models:: ",
+    "l5_why_normal": "Includes fixed-price, dedicated teams, staff augmentation, retainer, and maintenance/support contracts to meet diverse needs and budgets.",
+
+    "heading_management": "Meet Our Leadership",
+    "para_management": "Our management ensures innovation, quality, and client-focused delivery in every project.",
+    "card1_designation": "Core-founder",
+    "card2_designation": "Head of Operations",
+    "card3_designation": "Head of Technology",
+
+    "heading_banner": "Proudly Finnish",
+    "para_banner": "We deliver quality, reliable, and enduring software solutions with integrity.",
+
+    "heading_portfolio": "Recent Projects",
+    "para_portfolio": "We are proud to announce the recent successful completion and delivery of the following key projects. Each represents a significant achievement for both our team and our clients, demonstrating our dedication to providing top-tier solutions.",
+
+    "heading_contact": "Get In Touch",
+    "para_contact": "Whether you're planning a new project or looking for a technology partner, we're ready to help. Tell us about your needs, and we'll get back to you promptly.",
+    "heading_card_contact": "Contact us",
+    "para_card_contact": "Let us know how we can best serve you. Use the contact form to email us or reach us through the provided contact methods. It’s an honor to support you on your journey toward growth and innovation.",
+    "sub_heading1_card_contact": "Address:",
+    "l2_card_contact": "Raviradantie 7",
+    "l3_card_contact": "5100, Mikkeli",
+    "l4_card_contact": "Finland",
+    "sub_heading3_card_contact": "Phone ",
+    "name_ph": "Name",
+    "email_ph": "Email",
+    "phone_ph": "Phone number",
+    "comment": "Comment",
+    "btn_card_contact": "Send Message"
 }

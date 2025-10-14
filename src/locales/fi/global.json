@@ -40,5 +40,45 @@
     "l5_card3": "Push-ilmoitukset ja reaaliaikaiset ominaisuudet",
     "l6_card3": "Offline-toiminnallisuus",
     "l7_card3": "Mobiilihakemusten backend-kehitys",
-    "l8_card3": "Sovelluspäivitykset ja ylläpito"
+    "l8_card3": "Sovelluspäivitykset ja ylläpito",
+
+    "heading_why": "Miksi Sylox?",
+    "para_why": "Suomessa toimivana yrityksenä yhdistämme pohjoismaiset design-periaatteet huipputeknologiaan tarjotaksemme poikkeuksellisia ohjelmistoratkaisuja. Kokeneiden kehittäjiemme tiimi on sitoutunut laatuun, innovaatioihin ja asiakkaidemme tyytyväisyyteen.",
+    "l1_why_strong": "Suomalainen laatu & globaali kokemus: ",
+    "l1_why_normal": "Pohjoismaiset standardit, kansainvälinen projektitoimitus, suomen kielen ja kulttuurin asiantuntemus, paikalliset tapaamiset, tietosuoja-asetuksen (GDPR) noudattaminen, sama aikavyöhyke.",
+    "l2_why_strong": "Ketteryys & läpinäkyvä kehitys: ",
+    "l2_why_normal": "UAgile/Scrum-menetelmien käyttö joustavaan projektinhallintaan, säännölliset sprintit/demot, nopea reagointi muutoksiin, selkeät aikataulut ja budjetit, läpinäkyvä etenemisen seuranta.",
+    "l3_why_strong": "Tekninen huippuosaaminen:  ",
+    "l3_why_normal": "Yli 12 vuoden kokemus, sertifioidut asiantuntijat (Scrum, pilvipalvelut), full-stack-kehitys, DevOps/CI/CD, painotus tietoturvaan ja analytiikkaan, jatkuva oppiminen.",
+    "l4_why_strong": "Asiakaskeskeisyys: ",
+    "l4_why_normal": "Ilmainen konsultaatio, räätälöidyt ratkaisut, suomenkielinen dokumentaatio, koulutus ja perehdytys, pitkäaikainen tuki ja ylläpito.",
+    "l5_why_strong": "Kustannustehokkaat & joustavat mallit: ",
+    "l5_why_normal": "Kiinteähintaiset projektit, omistautuneet tiimit, henkilöstön vahvistaminen, retainersopimukset sekä ylläpito- ja tukisopimukset vastaamaan erilaisia tarpeita ja budjetteja.",
+
+    "heading_management": "Tutustu johtoryhmäämme",
+    "para_management": "Johtoryhmämme varmistaa innovaation, laadun ja asiakaskeskeisen toteutuksen jokaisessa projektissa.",
+    "card1_designation": "Perustajajäsen",
+    "card2_designation": "Toimintojen johtaja",
+    "card3_designation": "Teknologian johtaja",
+
+    "heading_banner": "Ylpeästi suomalainen",
+    "para_banner": "Toimitamme laadukkaita, luotettavia ja kestäviä ohjelmistoratkaisuja rehellisesti.",
+
+    "heading_portfolio": "Viimeaikaiset projektit",
+    "para_portfolio": "Olemme ylpeitä voidessamme ilmoittaa seuraavien keskeisten projektien onnistuneesta valmistumisesta ja toimituksesta. Jokainen projekti edustaa merkittävää saavutusta sekä tiimillemme että asiakkaillemme, ja osoittaa sitoutumisemme huipputason ratkaisujen tarjoamiseen.",
+
+    "heading_contact": "Ota yhteyttä",
+    "para_contact": "Olitpa suunnittelemassa uutta projektia tai etsimässä teknologia kumppania, olemme valmiita auttamaan. Kerro meille tarpeistasi, niin otamme sinuun yhteyttä nopeasti.",
+    "heading_card_contact": "Ota yhteyttä",
+    "para_card_contact": "Kerro meille, miten voimme palvella sinua parhaiten. Käytä yhteydenottolomaketta lähettääksesi meille sähköpostia tai ota meihin yhteyttä annettujen yhteystapojen kautta. On kunnia tukea sinua matkallasi kohti kasvua ja innovaatioita.",
+    "sub_heading1_card_contact": "Osoite:",
+    "l2_card_contact": "Raviradantie 7",
+    "l3_card_contact": "5100, Mikkeli",
+    "l4_card_contact": "Suomi",
+    "sub_heading3_card_contact": "Puhelin",
+    "name_ph": "Nimi",
+    "email_ph": "Sähköposti",
+    "phone_ph": "Puhelinnumero",
+    "comment": "Viesti",
+    "btn_card_contact": "Lähetä viesti"
 }

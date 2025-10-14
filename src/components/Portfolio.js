@@ -2,8 +2,11 @@ import React from "react";
 import imgOne from "../assets/images/services/web.jpg";
 import imgTwo from "../assets/images/services/mobile.jpg";
 import imgThree from "../assets/images/services/eps.jpg";
+import { useTranslation } from "react-i18next";
 
 const Portfolio = () => {
+    const { t } = useTranslation("global");
+
     return (
         <div>
             {" "}
@@ -12,11 +15,8 @@ const Portfolio = () => {
                 id="portfolio-section-scroll"
             >
                 <div className="container text-container">
-                    <h1 className="heading-text">Recent Projects</h1>
-                    <p className="para-text">
-                        Our management ensures innovation, quality, and
-                        client-focused delivery in every project.
-                    </p>
+                    <h1 className="heading-text"> {t("heading_portfolio")} </h1>
+                    <p className="para-text">{t("para_portfolio")}</p>
                 </div>
                 <div className="container mt-5">
                     <div className="row justify-content-center g-4">
