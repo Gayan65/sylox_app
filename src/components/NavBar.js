@@ -1,12 +1,18 @@
 import { useRef, useState, useEffect } from "react";
-import { FaBars, FaTimes } from "react-icons/fa";
+import { FaBars } from "react-icons/fa";
 import logoColour from "../assets/images/logo/Sylox Logo White text co.png";
 import { Link } from "react-scroll";
+import { useTranslation } from "react-i18next";
 
 function NavBar() {
     const navRef = useRef();
     const overlayRef = useRef();
     const [isScrolled, setIsScrolled] = useState(false);
+    const { t, i18n } = useTranslation("global");
+
+    const changeLang = (lang) => {
+        i18n.changeLanguage(lang);
+    };
 
     const showNavbar = () => {
         navRef.current.classList.toggle("responsive_nav");
@@ -41,7 +47,7 @@ function NavBar() {
             ></div>{" "}
             {/* overlay */}
             <nav ref={navRef}>
-                <a href="/">Home</a>
+                <a href="/">{t("home_nav")} </a>
                 <Link
                     className="scroll-link"
                     activeClass="active-link"
@@ -51,7 +57,7 @@ function NavBar() {
                     offset={-50}
                     duration={500}
                 >
-                    Services
+                    {t("services_nav")}
                 </Link>
                 <Link
                     className="scroll-link"
@@ -62,7 +68,7 @@ function NavBar() {
                     offset={-50}
                     duration={500}
                 >
-                    About
+                    {t("about_nav")}
                 </Link>
                 <Link
                     className="scroll-link"
@@ -73,7 +79,7 @@ function NavBar() {
                     offset={-50}
                     duration={500}
                 >
-                    Management
+                    {t("management_nav")}
                 </Link>
                 <Link
                     className="scroll-link"
@@ -84,7 +90,7 @@ function NavBar() {
                     offset={-50}
                     duration={500}
                 >
-                    Portfolio
+                    {t("portfolio_nav")}
                 </Link>
                 <Link
                     className="scroll-link"
@@ -95,8 +101,9 @@ function NavBar() {
                     offset={-50}
                     duration={500}
                 >
-                    Contact
+                    {t("contact_nav")}
                 </Link>
+
                 <div
                     className="btn-group language-custom-corner"
                     role="group"
@@ -104,11 +111,20 @@ function NavBar() {
                 >
                     <button
                         type="button"
-                        className="btn btn-outline-light active"
+                        className={`btn btn-outline-light ${
+                            i18n.language === "en" ? "active" : ""
+                        }`}
+                        onClick={() => changeLang("en")}
                     >
                         EN
                     </button>
-                    <button type="button" className="btn btn-outline-light">
+                    <button
+                        type="button"
+                        className={`btn btn-outline-light ${
+                            i18n.language === "fi" ? "active" : ""
+                        }`}
+                        onClick={() => changeLang("fi")}
+                    >
                         FI
                     </button>
                 </div>

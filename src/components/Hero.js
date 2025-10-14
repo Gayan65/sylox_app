@@ -7,8 +7,11 @@ import slide5 from "../assets/images/hero/5.jpg";
 import slide6 from "../assets/images/hero/6.jpg";
 import slide7 from "../assets/images/hero/7.jpg";
 
+import { useTranslation } from "react-i18next";
+
 const Hero = () => {
     const [animate, setAnimate] = useState(false);
+    const { t } = useTranslation("global");
 
     useEffect(() => {
         setTimeout(() => setAnimate(true), 300); // trigger after short delay
@@ -46,22 +49,20 @@ const Hero = () => {
                         fontWeight: "bold",
                     }}
                 >
-                    Agile software development that grows your business
+                    {t("header_sub1_hero")}
                 </h5>
                 <h1 className={`mt-4 mb-4 fade-up ${animate ? "fade-up" : ""}`}>
-                    Your Trusted Technology Partner in Finland
+                    {t("header_main_hero")}
                 </h1>
                 <p
                     style={{ fontSize: "1rem" }}
                     className={animate ? "fade-up-delay" : ""}
                 >
-                    SYLOX provides professional software development for Finnish
-                    SMEs and large enterprises. Our local team speaks Finnish
-                    and understands your market.
+                    {t("header_sub2_hero")}
                 </p>
 
                 <button type="button" className="btn btn-primary mt-5">
-                    CALL-TO-ACTION
+                    {t("btn1_hero")}
                 </button>
             </div>
         </div>
