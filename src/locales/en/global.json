@@ -66,6 +66,16 @@
 
     "heading_portfolio": "Recent Projects",
     "para_portfolio": "We are proud to announce the recent successful completion and delivery of the following key projects. Each represents a significant achievement for both our team and our clients, demonstrating our dedication to providing top-tier solutions.",
+    "heading_card1_portfolio": "Parking Solution",
+    "heading_card2_portfolio": "Resume Builder",
+    "heading_card3_portfolio": "Bloggy",
+    "heading_card4_portfolio": "Weather Station IoT",
+
+    "para_card1_portfolio": "A web-based application that allows users to search, reserve, and manage parking spaces in real time. The system features secure authentication, dynamic slot availability, and an intuitive interface.",
+    "para_card2_portfolio": "An online resume builder app where users can create and customize resumes, share them instantly with QR codes, and download them in multiple formats.",
+    "para_card3_portfolio": "A social blogging platform that allows users to write, publish, and share blogs while engaging with others through comments and likes.",
+    "para_card4_portfolio": "An IoT-based system that monitors temperature, humidity, and CO₂ levels in real time using connected sensors and displays data on a live dashboard.",
+    "btn-back": "Back",
 
     "heading_contact": "Get In Touch",
     "para_contact": "Whether you're planning a new project or looking for a technology partner, we're ready to help. Tell us about your needs, and we'll get back to you promptly.",

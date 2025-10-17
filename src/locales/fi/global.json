@@ -67,6 +67,17 @@
     "heading_portfolio": "Viimeaikaiset projektit",
     "para_portfolio": "Olemme ylpeitä voidessamme ilmoittaa seuraavien keskeisten projektien onnistuneesta valmistumisesta ja toimituksesta. Jokainen projekti edustaa merkittävää saavutusta sekä tiimillemme että asiakkaillemme, ja osoittaa sitoutumisemme huipputason ratkaisujen tarjoamiseen.",
 
+    "heading_card1_portfolio": "Pysäköintiratkaisu",
+    "heading_card2_portfolio": "Ansioluettelon luontityökalu",
+    "heading_card3_portfolio": "Bloggy",
+    "heading_card4_portfolio": "Sääasema IoT",
+
+    "para_card1_portfolio": "Verkkosovellus, joka mahdollistaa käyttäjien etsiä, varata ja hallita pysäköintipaikkoja reaaliajassa. Järjestelmä tarjoaa turvallisen tunnistautumisen, dynaamisen paikkatilanteen ja intuitiivisen käyttöliittymän.",
+    "para_card2_portfolio": "Verkossa toimiva ansioluettelon luontisovellus, jossa käyttäjät voivat luoda ja mukauttaa ansioluetteloita, jakaa niitä välittömästi QR-koodeilla ja ladata useissa eri formaateissa.",
+    "para_card3_portfolio": "Sosiaalinen blogialusta, jossa käyttäjät voivat kirjoittaa, julkaista ja jakaa blogeja sekä olla vuorovaikutuksessa muiden kanssa kommenttien ja tykkäysten kautta.",
+    "para_card4_portfolio": "IoT-pohjainen järjestelmä, joka seuraa lämpötilaa, kosteutta ja CO₂-tasoja reaaliajassa liitettyjen antureiden avulla ja näyttää tiedot live-hallintapaneelissa.",
+    "btn-back": "Takaisin",
+
     "heading_contact": "Ota yhteyttä",
     "para_contact": "Olitpa suunnittelemassa uutta projektia tai etsimässä teknologia kumppania, olemme valmiita auttamaan. Kerro meille tarpeistasi, niin otamme sinuun yhteyttä nopeasti.",
     "heading_card_contact": "Ota yhteyttä",
