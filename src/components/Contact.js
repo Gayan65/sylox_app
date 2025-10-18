@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
+import Swal from "sweetalert2";
 
 const Contact = () => {
     const { t } = useTranslation("global");
@@ -11,7 +12,6 @@ const Contact = () => {
     const [message, setMessage] = useState("");
 
     const handleSubmit = async (e) => {
-        console.log("here1");
         e.preventDefault();
 
         const contact = {
@@ -22,27 +22,70 @@ const Contact = () => {
         };
         console.log(name, email, phone, message);
         //api call
-        try {
-            const response = await fetch("api/contact/create-contact/", {
-                method: "POST",
-                headers: {
-                    "Content-Type": "application/json",
-                },
-                body: JSON.stringify(contact),
-            });
 
-            const json = await response.json();
+        Swal.fire({
+            title: "Message Confirm",
+            text: "Do you wish to send us this message?",
+            icon: "info",
+            showCancelButton: true,
+            confirmButtonColor: "#008fcc",
+            cancelButtonColor: "#d33",
+            cancelButtonText: "No",
+            confirmButtonText: "Yes",
+        }).then(async (result) => {
+            if (result.isConfirmed) {
+                Swal.fire({
+                    title: "Sending...",
+                    text: "Please wait while we send your message.",
+                    allowOutsideClick: false,
+                    didOpen: () => {
+                        Swal.showLoading();
+                    },
+                });
 
-            if (!response.ok) {
-                console.log(json.error);
+                try {
+                    const response = await fetch(
+                        "api/contact/create-contact/",
+                        {
+                            method: "POST",
+                            headers: {
+                                "Content-Type": "application/json",
+                            },
+                            body: JSON.stringify(contact),
+                        }
+                    );
+
+                    const json = await response.json();
+
+                    if (!response.ok) {
+                        console.log(json.error);
+                        Swal.fire({
+                            title: "Error!",
+                            text: "Something went wrong. Please try again later.",
+                            icon: "error",
+                        });
+                    }
+
+                    if (response.ok) {
+                        console.log(json);
+
+                        Swal.fire({
+                            title: "Success!",
+                            text: "Your message has been sent successfully.",
+                            icon: "success",
+                            confirmButtonColor: "#008fcc",
+                        });
+                    }
+                } catch (error) {
+                    console.error("Error in creating contact:", error);
+                    Swal.fire({
+                        title: "Error!",
+                        text: "Something went wrong. Please try again later.",
+                        icon: "error",
+                    });
+                }
             }
-
-            if (response.ok) {
-                console.log(json);
-            }
-        } catch (error) {
-            console.error("Error in creating contact:", error);
-        }
+        });
     };
 
     return (
