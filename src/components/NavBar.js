@@ -35,11 +35,21 @@ function NavBar() {
 
     return (
         <header className={isScrolled ? "scrolled" : ""}>
-            <img
-                src={logoColour}
-                alt="Logo"
-                style={{ width: 150, paddingTop: 6 }}
-            />
+            <Link
+                className="scroll-link"
+                activeClass="active-link"
+                to="heroCarousel"
+                spy={true}
+                smooth={true}
+                offset={-50}
+                duration={500}
+            >
+                <img
+                    src={logoColour}
+                    alt="Logo"
+                    style={{ width: 150, paddingTop: 6, cursor: "pointer" }}
+                />
+            </Link>
             <div
                 className="nav-overlay"
                 ref={overlayRef}
