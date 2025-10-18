@@ -90,5 +90,17 @@
     "email_ph": "Email",
     "phone_ph": "Phone number",
     "comment": "Comment",
-    "btn_card_contact": "Send Message"
+    "btn_card_contact": "Send Message",
+
+    "title_alert1": "Message Confirm",
+    "text_1": "Do you wish to send us this message?",
+    "cancelButtonText": "No",
+    "confirmButtonText": "Yes",
+    "title_sending": "Sending...",
+    "text_2": "Please wait while we send your message.",
+    "title_3": "Error!",
+    "text_3": "Something went wrong. Please try again later.",
+    "title_4": "Success!",
+    "text_4": "Your message has been sent successfully.",
+    "confirmButtonText2": "OK"
 }

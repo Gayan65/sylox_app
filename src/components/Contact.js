@@ -24,19 +24,20 @@ const Contact = () => {
         //api call
 
         Swal.fire({
-            title: "Message Confirm",
-            text: "Do you wish to send us this message?",
+            title: t("title_alert1"),
+            text: t("text_1"),
             icon: "info",
+            iconColor: "#008fcc",
             showCancelButton: true,
             confirmButtonColor: "#008fcc",
             cancelButtonColor: "#d33",
-            cancelButtonText: "No",
-            confirmButtonText: "Yes",
+            cancelButtonText: t("cancelButtonText"),
+            confirmButtonText: t("confirmButtonText"),
         }).then(async (result) => {
             if (result.isConfirmed) {
                 Swal.fire({
-                    title: "Sending...",
-                    text: "Please wait while we send your message.",
+                    title: t("title_sending"),
+                    text: t("text_2"),
                     allowOutsideClick: false,
                     didOpen: () => {
                         Swal.showLoading();
@@ -60,8 +61,8 @@ const Contact = () => {
                     if (!response.ok) {
                         console.log(json.error);
                         Swal.fire({
-                            title: "Error!",
-                            text: "Something went wrong. Please try again later.",
+                            title: t("title_3"),
+                            text: t("text_3"),
                             icon: "error",
                         });
                     }
@@ -70,17 +71,23 @@ const Contact = () => {
                         console.log(json);
 
                         Swal.fire({
-                            title: "Success!",
-                            text: "Your message has been sent successfully.",
+                            title: t("title_4"),
+                            text: t("text_4"),
                             icon: "success",
                             confirmButtonColor: "#008fcc",
+                            confirmButtonText: "OK",
                         });
+
+                        setName("");
+                        setEmail("");
+                        setPhone("");
+                        setMessage("");
                     }
                 } catch (error) {
                     console.error("Error in creating contact:", error);
                     Swal.fire({
-                        title: "Error!",
-                        text: "Something went wrong. Please try again later.",
+                        title: t("title_3"),
+                        text: t("text_3"),
                         icon: "error",
                     });
                 }

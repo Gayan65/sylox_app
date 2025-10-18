@@ -91,5 +91,17 @@
     "email_ph": "Sähköposti",
     "phone_ph": "Puhelinnumero",
     "comment": "Viesti",
-    "btn_card_contact": "Lähetä viesti"
+    "btn_card_contact": "Lähetä viesti",
+
+    "title_alert1": "Viestin vahvistus",
+    "text_1": "Haluatko lähettää tämän viestin meille?",
+    "cancelButtonText": "Ei",
+    "confirmButtonText": "Kyllä",
+    "title_sending": "Lähetetään...",
+    "text_2": "Odota hetki, viestiäsi lähetetään.",
+    "title_3": "Virhe!",
+    "text_3": "Jotain meni pieleen. Yritä myöhemmin uudelleen.",
+    "title_4": "Onnistui!",
+    "text_4": "Viestisi on lähetetty onnistuneesti.",
+    "confirmButtonText2": "OK"
 }
