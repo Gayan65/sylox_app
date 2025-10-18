@@ -47,7 +47,18 @@ function NavBar() {
             ></div>{" "}
             {/* overlay */}
             <nav ref={navRef}>
-                <a href="/">{t("home_nav")} </a>
+                <Link
+                    className="scroll-link"
+                    activeClass="active-link"
+                    to="heroCarousel"
+                    spy={true}
+                    smooth={true}
+                    offset={-50}
+                    duration={500}
+                >
+                    {t("home_nav")}
+                </Link>
+
                 <Link
                     className="scroll-link"
                     activeClass="active-link"
