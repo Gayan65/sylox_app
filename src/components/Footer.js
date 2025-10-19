@@ -2,6 +2,7 @@ import React from "react";
 import logo from "../assets/images/logo/Sylox Logo White text co.png";
 import { useTranslation } from "react-i18next";
 import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa";
+import { Link } from "react-scroll";
 
 const Footer = () => {
     const { t } = useTranslation("global");
@@ -13,73 +14,135 @@ const Footer = () => {
                         <div className="logo">
                             <img src={logo} alt="Logo" />
                         </div>
-                        <p>{t("header_sub2_hero")}</p>
+                        <p> Sylox Solutions, {t("para_footer")} 3563729-8</p>
                         <div className="socials">
-                            <a href="#">
+                            <a href="/">
                                 <FaFacebook />
                             </a>
-                            <a href="#">
+                            <a href="/">
                                 <FaTwitter />
                             </a>
-                            <a href="#">
+                            <a href="/">
                                 <FaInstagram />
                             </a>
-                            <a href="#">
+                            <a href="/">
                                 <FaLinkedin />
                             </a>
                         </div>
                     </div>
 
                     <div className="footer-section">
-                        <h3 className="custom-footer-text">Company</h3>
+                        <h3 className="custom-footer-text"> {t("company")} </h3>
                         <ul>
                             <li>
-                                <a href="#">Home</a>
+                                <Link
+                                    className="scroll-link"
+                                    activeClass="active-link"
+                                    to="heroCarousel"
+                                    spy={true}
+                                    smooth={true}
+                                    offset={-50}
+                                    duration={500}
+                                >
+                                    {t("home_nav")}
+                                </Link>
                             </li>
                             <li>
-                                <a href="#">About</a>
+                                <Link
+                                    className="scroll-link"
+                                    activeClass="active-link"
+                                    to="why-section-scroll"
+                                    spy={true}
+                                    smooth={true}
+                                    offset={-50}
+                                    duration={500}
+                                >
+                                    {t("about_nav")}
+                                </Link>
                             </li>
                             <li>
-                                <a href="#">Services</a>
-                            </li>
-                            <li>
-                                <a href="#">Contact</a>
+                                <Link
+                                    className="scroll-link"
+                                    activeClass="active-link"
+                                    to="services-section-scroll"
+                                    spy={true}
+                                    smooth={true}
+                                    offset={-50}
+                                    duration={500}
+                                >
+                                    {t("services_nav")}
+                                </Link>
                             </li>
                         </ul>
                     </div>
 
                     <div className="footer-section">
-                        <h3 className="custom-footer-text">Business</h3>
+                        <h3 className="custom-footer-text">
+                            {" "}
+                            {t("business")}{" "}
+                        </h3>
                         <ul>
                             <li>
-                                <a href="#">Project</a>
+                                <Link
+                                    className="scroll-link"
+                                    activeClass="active-link"
+                                    to="portfolio-section-scroll"
+                                    spy={true}
+                                    smooth={true}
+                                    offset={-50}
+                                    duration={500}
+                                >
+                                    {t("portfolio_nav")}
+                                </Link>
                             </li>
                             <li>
-                                <a href="#">Our Team</a>
+                                <Link
+                                    className="scroll-link"
+                                    activeClass="active-link"
+                                    to="management-section-scroll"
+                                    spy={true}
+                                    smooth={true}
+                                    offset={-50}
+                                    duration={500}
+                                >
+                                    {t("management_nav")}
+                                </Link>
                             </li>
                             <li>
-                                <a href="#">Facts</a>
-                            </li>
-                            <li>
-                                <a href="#">Customers</a>
+                                <Link
+                                    className="scroll-link"
+                                    activeClass="active-link"
+                                    to="contact-section-scroll"
+                                    spy={true}
+                                    smooth={true}
+                                    offset={-50}
+                                    duration={500}
+                                >
+                                    {t("contact_nav")}
+                                </Link>
                             </li>
                         </ul>
                     </div>
 
                     <div className="footer-section contact">
-                        <h3 className="custom-footer-text">Get In Touch</h3>
+                        <h3 className="custom-footer-text">
+                            {" "}
+                            {t("get_in_touch")}{" "}
+                        </h3>
                         <p className="custom-footer-text">
-                            Raviradantie 7, Mikkeli 50100, Finland
+                            {t("address_footer")}
                         </p>
                         <p className="custom-footer-text">info@sylox.fi</p>
-                        <p className="custom-footer-text">041 470 2987 </p>
-                        <p className="custom-footer-text">+358 414 702 987</p>
+                        <p className="custom-footer-text">+358 414 702 987 </p>
                     </div>
                 </div>
             </div>
 
             <div className="footer-bottom">
-                <p>Copyright © 2025 SYLOX | Powered by Sylox</p>
+                <p>
+                    {" "}
+                    {t("copyright")} {new Date().getFullYear()} {t("powered")}
+                </p>
             </div>
         </footer>
     );

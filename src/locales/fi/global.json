@@ -8,7 +8,7 @@
     "services_nav": "Palvelut",
     "about_nav": "Tietoa meistä",
     "management_nav": "Johto",
-    "portfolio_nav": "Portfolio",
+    "portfolio_nav": "Projektit",
     "contact_nav": "Yhteystiedot",
 
     "heading_services": "Palvelumme",
@@ -103,5 +103,13 @@
     "text_3": "Jotain meni pieleen. Yritä myöhemmin uudelleen.",
     "title_4": "Onnistui!",
     "text_4": "Viestisi on lähetetty onnistuneesti.",
-    "confirmButtonText2": "OK"
+    "confirmButtonText2": "OK",
+
+    "company": "Yritys",
+    "business": "Liiketoiminta",
+    "get_in_touch": "Ota yhteyttä",
+    "address_footer": "Raviradantie 7, Mikkeli 50100, Suomi",
+    "para_footer": "Y-tunnus",
+    "copyright": "Tekijänoikeus ©",
+    "powered": "SYLOX | Toteutus: Sylox Solutions"
 }

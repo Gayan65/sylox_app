@@ -8,7 +8,7 @@
     "services_nav": "Services",
     "about_nav": "About",
     "management_nav": "Management",
-    "portfolio_nav": "Portfolio",
+    "portfolio_nav": "Projects",
     "contact_nav": "Contact",
 
     "heading_services": "Our Services",
@@ -102,5 +102,13 @@
     "text_3": "Something went wrong. Please try again later.",
     "title_4": "Success!",
     "text_4": "Your message has been sent successfully.",
-    "confirmButtonText2": "OK"
+    "confirmButtonText2": "OK",
+
+    "company": "Company",
+    "business": "Business",
+    "get_in_touch": "Get In Touch",
+    "address_footer": "Raviradantie 7, Mikkeli 50100, Finland",
+    "para_footer": "Business N",
+    "copyright": "Copyright ©  ",
+    "powered": "SYLOX | Powered by Sylox Solutions"
 }
