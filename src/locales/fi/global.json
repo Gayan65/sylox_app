@@ -90,6 +90,7 @@
     "name_ph": "Nimi",
     "email_ph": "Sähköposti",
     "phone_ph": "Puhelinnumero",
+    "phone_validation": "Anna kelvollinen puhelinnumero",
     "comment": "Viesti",
     "btn_card_contact": "Lähetä viesti",
 

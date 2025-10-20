@@ -89,6 +89,7 @@
     "name_ph": "Name",
     "email_ph": "Email",
     "phone_ph": "Phone number",
+    "phone_validation": "Please enter a valid phone number",
     "comment": "Comment",
     "btn_card_contact": "Send Message",
 

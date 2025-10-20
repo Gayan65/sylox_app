@@ -152,9 +152,21 @@ const Contact = () => {
                             <input
                                 type="tel"
                                 placeholder={t("phone_ph")}
-                                onChange={(e) => setPhone(e.target.value)}
+                                onChange={(e) => {
+                                    // Allow only numbers, +, space, and -
+                                    const value = e.target.value.replace(
+                                        /[^0-9+\s-]/g,
+                                        ""
+                                    );
+                                    setPhone(value);
+                                }}
                                 value={phone}
+                                inputMode="tel"
+                                pattern="^\+?[0-9\s-]{4,15}$"
+                                title={t("phone_validation")}
+                                required
                             />
+
                             <textarea
                                 placeholder={t("comment")}
                                 rows="4"
