@@ -56,23 +56,30 @@ const Management = () => {
                                 </div>
 
                                 <h2 className="profile-name">Gayan Gamage</h2>
-                                <p className="profile-role">Core-Founder</p>
+                                <p className="profile-role">
+                                    {" "}
+                                    {t("card1_designation")}{" "}
+                                </p>
 
                                 <p className="profile-description">
-                                    I joined this platform to increase my
-                                    knowledge about UI/UX designs, I will also
-                                    love to learn more from friends and
-                                    organizers on this space.
+                                    {t("card1_description")}
                                 </p>
 
                                 <div className="profile-socials">
                                     <div className="social-item">
-                                        <img
-                                            src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg"
-                                            alt="LinkedIn"
-                                            className="social-icon"
-                                        />
-                                        <span>Gayan Gamage</span>
+                                        <a
+                                            href="https://www.linkedin.com/in/gayangamage/"
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            className="social-link"
+                                        >
+                                            <img
+                                                src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg"
+                                                alt="LinkedIn"
+                                                className="social-icon"
+                                            />
+                                            <span>Gayan Gamage</span>
+                                        </a>
                                     </div>
                                 </div>
 
@@ -121,13 +128,13 @@ const Management = () => {
                                 <h2 className="profile-name">
                                     Tanel Wirilander
                                 </h2>
-                                <p className="profile-role">Product Design</p>
+                                <p className="profile-role">
+                                    {" "}
+                                    {t("card2_designation")}{" "}
+                                </p>
 
                                 <p className="profile-description">
-                                    I joined this platform to increase my
-                                    knowledge about UI/UX designs, I will also
-                                    love to learn more from friends and
-                                    organizers on this space.
+                                    {t("card2_description")}
                                 </p>
 
                                 <div className="profile-socials">
@@ -186,14 +193,11 @@ const Management = () => {
 
                                 <h2 className="profile-name">Sam Wije</h2>
                                 <p className="profile-role">
-                                    Head of Technology
+                                    {t("card3_designation")}
                                 </p>
 
                                 <p className="profile-description">
-                                    I joined this platform to increase my
-                                    knowledge about UI/UX designs, I will also
-                                    love to learn more from friends and
-                                    organizers on this space.
+                                    {t("card3_description")}
                                 </p>
 
                                 <div className="profile-socials">

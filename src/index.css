@@ -466,8 +466,7 @@ nav {
 }
 
 .profile-card:hover img {
-    transform: scale(1.08);
-    filter: brightness(90%);
+    filter: brightness(80%);
 }
 
 .profile-img {
@@ -562,6 +561,20 @@ nav {
     width: 14px;
     height: 14px;
     filter: invert(30%) sepia(90%) saturate(300%) hue-rotate(180deg);
+}
+
+.social-link {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+    color: inherit;
+}
+
+.social-link:hover {
+    opacity: 0.8;
+    transform: scale(1.02);
+    transition: 0.2s ease;
 }
 
 @media (max-width: 991px) {
