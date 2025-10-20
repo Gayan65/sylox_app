@@ -139,12 +139,20 @@ const Management = () => {
 
                                 <div className="profile-socials">
                                     <div className="social-item">
-                                        <img
-                                            src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg"
-                                            alt="LinkedIn"
-                                            className="social-icon"
-                                        />
-                                        <span>Tanel Wirilander</span>
+                                        <a
+                                            href="https://www.linkedin.com/in/tanel-undefined-6b470338b/"
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            className="social-link"
+                                        >
+                                            {" "}
+                                            <img
+                                                src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg"
+                                                alt="LinkedIn"
+                                                className="social-icon"
+                                            />
+                                            <span>Tanel Wirilander</span>
+                                        </a>
                                     </div>
                                 </div>
 
