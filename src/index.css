@@ -454,16 +454,25 @@ nav {
     max-width: 400px; /* gives enough room for profile image */
     overflow: hidden;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.5s ease;
 }
 
-.profile-card:hover {
-    transform: translateY(-5px);
+.profile-card img {
+    object-fit: cover;
+    transition: all 0.5s ease;
+    border-radius: 4px;
+}
+
+.profile-card:hover img {
+    transform: scale(1.08);
+    filter: brightness(90%);
 }
 
 .profile-img {
     width: 100%;
     height: auto;
-
     display: block;
 }
 
@@ -483,6 +492,82 @@ nav {
     background: linear-gradient(to bottom, #ffffff, #e7f6ff);
     height: auto;
     padding: 5% 0;
+}
+
+/*********/
+
+.profile-card-back {
+    max-width: 400px;
+    text-align: center;
+    position: relative;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #333;
+    padding: 20px;
+    transition: all 0.5s ease;
+}
+
+.profile-img-container {
+    position: relative;
+    width: 90px;
+    height: 90px;
+    margin: 0 auto 0.8rem;
+}
+
+.profile-img-back {
+    width: 100%;
+    height: 100%;
+    border-radius: 50% !important;
+    object-fit: cover;
+    border: 3px solid var(--secondaryColor);
+}
+
+.profile-name {
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin: 0.2rem 0;
+}
+
+.profile-role {
+    font-size: 0.9rem;
+    color: #555;
+    margin-bottom: 1rem;
+}
+
+.profile-description {
+    font-size: 0.8rem;
+    color: #444;
+    line-height: 1.4;
+    margin-bottom: 1rem;
+}
+
+.profile-socials {
+    border-top: 1px solid #ddd;
+    padding-top: 0.8rem;
+}
+
+.social-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    font-size: 0.8rem;
+    color: #222;
+    margin: 4px 0;
+}
+
+.social-icon {
+    width: 14px;
+    height: 14px;
+    filter: invert(30%) sepia(90%) saturate(300%) hue-rotate(180deg);
+}
+
+@media (max-width: 991px) {
+    .profile-card-back {
+        top: 50%;
+    }
 }
 
 /*Fi Banner*/
