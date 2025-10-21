@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import cvImg from "../assets/images/portfolio/cvBuilder.png";
 import weatherImg from "../assets/images/portfolio/weatherStation.png";
 import parkingImg from "../assets/images/portfolio/parkReservation.png";
-import bloggyImg from "../assets/images/portfolio/bloggy.png";
+import bloggyImg from "../assets/images/portfolio/bloggyApp.png";
 import { useTranslation } from "react-i18next";
 
 const Portfolio = () => {

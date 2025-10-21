@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import imgOne from "../assets/images/management/Gayan.jpg";
-import imgTwo from "../assets/images/management/Tanel.jpg";
-import imgThree from "../assets/images/management/Sam.jpg";
+import imgOne from "../assets/images/management/manager-one.jpg";
+import imgTwo from "../assets/images/management/manager-two.jpg";
+import imgThree from "../assets/images/management/manager-three.jpg";
 import imgTanel from "../assets/images/management/TanelClose.png";
 import imgGayan from "../assets/images/management/GayanClose.png";
 import imgSam from "../assets/images/management/SamClose.png";
