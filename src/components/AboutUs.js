@@ -1,5 +1,10 @@
 import React from "react";
-import img1 from "../assets/images/hero/2.jpg";
+import visionImg from "../assets/images/team/IMG_4957.jpg";
+import missionImg from "../assets/images/team/IMG_4903.jpg";
+import teamCulture from "../assets/images/team/IMG_4436.jpg";
+import howWorkImg from "../assets/images/team/IMG_4350.jpg";
+import ourCommitImg from "../assets/images/team/IMG_4433.jpg";
+
 import { useTranslation } from "react-i18next";
 
 const AboutUs = () => {
@@ -8,11 +13,16 @@ const AboutUs = () => {
     return (
         <div className="container-fluid custom-color-gradient">
             <div className="container text-container">
-                <h1 className="heading-text"> {t("heading_management")} </h1>
-                <p className="para-text">{t("para_management")}</p>
+                <h1 className="heading-text"> {t("title_about")} </h1>
+                <p className="para-text">{t("para_about")}</p>
             </div>
             <div className="container mt-5">
-                <div id="carouselExampleIndicators" className="carousel slide">
+                <div
+                    id="carouselExampleIndicators"
+                    className="carousel slide"
+                    data-bs-ride="carousel"
+                    data-bs-interval="4000"
+                >
                     <div className="carousel-indicators">
                         <button
                             type="button"
@@ -34,6 +44,18 @@ const AboutUs = () => {
                             data-bs-slide-to="2"
                             aria-label="Slide 3"
                         ></button>
+                        <button
+                            type="button"
+                            data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide-to="3"
+                            aria-label="Slide 4"
+                        ></button>
+                        <button
+                            type="button"
+                            data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide-to="4"
+                            aria-label="Slide 5"
+                        ></button>
                     </div>
                     <div className="carousel-inner">
                         <div className="carousel-item carousel-item-custom active ">
@@ -42,21 +64,13 @@ const AboutUs = () => {
                                     <div className="learn-container">
                                         <div className="learn-image">
                                             <img
-                                                src={img1}
+                                                src={visionImg}
                                                 alt="People learning together"
                                             />
                                         </div>
                                         <div className="learn-content">
-                                            <h2>Learn with Us!</h2>
-                                            <p>
-                                                Quis viverra nibh cras pulvinar
-                                                mattis nunc sed. Lacus sed
-                                                turpis tincidunt id aliquet
-                                                risus feugiat in. Auctor augue
-                                                mauris augue neque gravida in
-                                                fermentum et. Feugiat in
-                                                fermentum posuere urna.
-                                            </p>
+                                            <h2> {t("card1_title_about")} </h2>
+                                            <p>{t("card1_para_about")}</p>
                                         </div>
                                     </div>
                                 </section>
@@ -68,21 +82,13 @@ const AboutUs = () => {
                                     <div className="learn-container">
                                         <div className="learn-image">
                                             <img
-                                                src={img1}
+                                                src={missionImg}
                                                 alt="People learning together"
                                             />
                                         </div>
                                         <div className="learn-content">
-                                            <h2>Learn with Us!</h2>
-                                            <p>
-                                                Quis viverra nibh cras pulvinar
-                                                mattis nunc sed. Lacus sed
-                                                turpis tincidunt id aliquet
-                                                risus feugiat in. Auctor augue
-                                                mauris augue neque gravida in
-                                                fermentum et. Feugiat in
-                                                fermentum posuere urna.
-                                            </p>
+                                            <h2> {t("card2_title_about")} </h2>
+                                            <p>{t("card2_para_about")}</p>
                                         </div>
                                     </div>
                                 </section>
@@ -94,21 +100,49 @@ const AboutUs = () => {
                                     <div className="learn-container">
                                         <div className="learn-image">
                                             <img
-                                                src={img1}
+                                                src={teamCulture}
                                                 alt="People learning together"
                                             />
                                         </div>
                                         <div className="learn-content">
-                                            <h2>Learn with Us!</h2>
-                                            <p>
-                                                Quis viverra nibh cras pulvinar
-                                                mattis nunc sed. Lacus sed
-                                                turpis tincidunt id aliquet
-                                                risus feugiat in. Auctor augue
-                                                mauris augue neque gravida in
-                                                fermentum et. Feugiat in
-                                                fermentum posuere urna.
-                                            </p>
+                                            <h2> {t("card3_title_about")} </h2>
+                                            <p>{t("card3_para_about")}</p>
+                                        </div>
+                                    </div>
+                                </section>
+                            </>
+                        </div>
+                        <div className="carousel-item carousel-item-custom">
+                            <>
+                                <section className="learn-section">
+                                    <div className="learn-container">
+                                        <div className="learn-image">
+                                            <img
+                                                src={howWorkImg}
+                                                alt="People learning together"
+                                            />
+                                        </div>
+                                        <div className="learn-content">
+                                            <h2> {t("card4_title_about")} </h2>
+                                            <p>{t("card4_para_about")}</p>
+                                        </div>
+                                    </div>
+                                </section>
+                            </>
+                        </div>
+                        <div className="carousel-item carousel-item-custom">
+                            <>
+                                <section className="learn-section">
+                                    <div className="learn-container">
+                                        <div className="learn-image">
+                                            <img
+                                                src={ourCommitImg}
+                                                alt="People learning together"
+                                            />
+                                        </div>
+                                        <div className="learn-content">
+                                            <h2> {t("card5_title_about")} </h2>
+                                            <p>{t("card5_para_about")}</p>
                                         </div>
                                     </div>
                                 </section>

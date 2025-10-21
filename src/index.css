@@ -999,6 +999,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    min-height: 20rem;
 }
 
 .learn-content h2 {
@@ -1023,16 +1024,20 @@ body {
     background: none; /* Black overlay with 50% opacity */
 }
 
-.carousel-control-prev {
-    max-height: 50px;
-    max-width: 50px;
+.carousel-control-prev,
+.carousel-control-next {
     top: 50%;
+    transform: translateY(-50%);
+    width: 60px; /* optional: adjust click area */
 }
 
+.carousel-control-prev {
+    left: -60px; /* move outside the left edge */
+}
+
+/* Move right arrow outside */
 .carousel-control-next {
-    max-height: 50px;
-    max-width: 50px;
-    top: 50%;
+    right: -60px; /* move outside the right edge */
 }
 
 .carousel-control-prev:hover {
@@ -1069,4 +1074,17 @@ body {
 
 .carousel-indicators [data-bs-target] {
     background-color: var(--secondaryColor);
+}
+
+@media (max-width: 639px) {
+    .carousel-control-prev {
+        left: -1.5rem; /* move outside the left edge */
+        top: 55%;
+    }
+
+    /* Move right arrow outside */
+    .carousel-control-next {
+        right: -1.5rem; /* move outside the right edge */
+        top: 55%;
+    }
 }

@@ -114,5 +114,19 @@
     "address_footer": "Raviradantie 7, Mikkeli 50100, Finland",
     "para_footer": "Business N",
     "copyright": "Copyright ©  ",
-    "powered": "SYLOX | Powered by Sylox Solutions"
+    "powered": "SYLOX | Powered by Sylox Solutions",
+
+    "title_about": "About us",
+    "para_about": "We are dedicated to creating modern, reliable, and user-friendly software solutions that make everyday tasks simpler and more efficient.",
+
+    "card1_title_about": "VISION:",
+    "card1_para_about": "To be the leading Nordic software company that transforms ideas into functional digital solutions and enables businesses to thrive in the digital world.",
+    "card2_title_about": "MISSION:",
+    "card2_para_about": "We deliver world-class software solutions that generate real business value for our clients. We combine technical excellence, user-centered design, and agile development to create innovative digital services that drive our clients' success.",
+    "card3_title_about": "TEAM CULTURE:",
+    "card3_para_about": "We value trust, transparency, and collaboration. Our team promotes work-life balance, continuous learning, and inclusivity while delivering quality, customer-focused solutions.",
+    "card4_title_about": "HOW WE WORK:",
+    "card4_para_about": "We work in an agile and flexible way, encouraging innovation and creativity in everything we do. As a remote-first team, we stay connected through collaboration and open communication to deliver our best work together.",
+    "card5_title_about": "OUR COMMITMENT:",
+    "card5_para_about": "We are committed to creating a work environment where everyone can realize their full potential, feel valued, and do the best work of their careers. We're building a company where we want to work ourselves and are proud to belong to."
 }
