@@ -17,15 +17,12 @@ const Footer = () => {
                         <p> Sylox Solutions, {t("para_footer")} 3563729-8</p>
                         <div className="socials">
                             <a href="/">
-                                <FaFacebook />
-                            </a>
-                            <a href="/">
                                 <FaTwitter />
                             </a>
                             <a href="/">
                                 <FaInstagram />
                             </a>
-                            <a href="/">
+                            <a href="https://www.linkedin.com/company/syloxsolutions/">
                                 <FaLinkedin />
                             </a>
                         </div>
