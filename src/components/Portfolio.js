@@ -118,7 +118,7 @@ const Portfolio = () => {
                                         onClick={() => showDescription(3)}
                                     />
                                     <div className="overlay">
-                                        <h3>{t("heading_card1_portfolio")}</h3>
+                                        <h3>{t("heading_card3_portfolio")}</h3>
                                     </div>
                                 </>
                             )}
