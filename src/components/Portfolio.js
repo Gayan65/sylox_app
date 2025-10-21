@@ -36,7 +36,7 @@ const Portfolio = () => {
                 <p className="para-text">{t("para_portfolio")}</p>
             </div>
 
-            <div className="container mt-5">
+            <div className="container min-vh-100 d-flex justify-content-center align-items-center">
                 <div className="portfolio-section">
                     <div className="portfolio-grid">
                         {/* CARD 1 */}

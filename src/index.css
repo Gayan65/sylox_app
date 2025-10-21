@@ -621,7 +621,7 @@ nav {
 
 .portfolio-section {
     text-align: center;
-    padding: 40px;
+    max-width: 40rem;
 }
 
 .portfolio-grid {
