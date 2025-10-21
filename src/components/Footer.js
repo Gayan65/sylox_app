@@ -1,7 +1,7 @@
 import React from "react";
 import logo from "../assets/images/logo/Sylox Logo White text co.png";
 import { useTranslation } from "react-i18next";
-import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa";
+import { FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa";
 import { Link } from "react-scroll";
 
 const Footer = () => {
