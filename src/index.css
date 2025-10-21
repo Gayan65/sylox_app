@@ -1088,3 +1088,67 @@ body {
         top: 55%;
     }
 }
+
+/**/
+/* src/pages/NotFound.css */
+
+.notfound-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: transparent;
+    color: #212529;
+}
+
+.notfound-content {
+    max-width: 600px;
+    padding: 40px;
+    background: #ffffff;
+    border-radius: 4px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 0.6s ease-in-out;
+}
+
+.error-code {
+    font-size: 8rem;
+    font-weight: 800;
+    color: var(--secondaryColor);
+    margin-bottom: 10px;
+}
+
+.error-title {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.error-message {
+    font-size: 1.1rem;
+    color: #6c757d;
+    margin-bottom: 30px;
+}
+
+.error-btn {
+    font-size: 1rem;
+    padding: 10px 30px;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    background-color: var(--secondaryColor);
+}
+
+.error-btn:hover {
+    background-color: var(--mainColor);
+    transform: translateY(-2px);
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
