@@ -11,7 +11,10 @@ const AboutUs = () => {
     const { t } = useTranslation("global");
 
     return (
-        <div className="container-fluid custom-color-gradient">
+        <div
+            className="container-fluid custom-color-gradient"
+            id="why-section-scroll"
+        >
             <div className="container text-container">
                 <h1 className="heading-text"> {t("title_about")} </h1>
                 <p className="para-text">{t("para_about")}</p>

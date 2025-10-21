@@ -6,7 +6,7 @@ const WhySection = () => {
     const { t } = useTranslation("global");
 
     return (
-        <div className="container-fluid custom-color" id="why-section-scroll">
+        <div className="container-fluid custom-color">
             <div className="container text-container">
                 <h1 className="heading-text"> {t("heading_why")} </h1>
                 <p className="para-text text-start">{t("para_why")}</p>
