@@ -199,7 +199,9 @@ const Management = () => {
                                     <span className="status-dot"></span>
                                 </div>
 
-                                <h2 className="profile-name">Sam Wije</h2>
+                                <h2 className="profile-name">
+                                    Champaka Wijewardana
+                                </h2>
                                 <p className="profile-role">
                                     {t("card3_designation")}
                                 </p>
@@ -210,12 +212,20 @@ const Management = () => {
 
                                 <div className="profile-socials">
                                     <div className="social-item">
-                                        <img
-                                            src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg"
-                                            alt="LinkedIn"
-                                            className="social-icon"
-                                        />
-                                        <span>Sam Wije</span>
+                                        <a
+                                            href="https://www.linkedin.com/in/samiilaa-wijayawardana/"
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            className="social-link"
+                                        >
+                                            {" "}
+                                            <img
+                                                src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg"
+                                                alt="LinkedIn"
+                                                className="social-icon"
+                                            />
+                                            <span>Champaka Wijewardana</span>
+                                        </a>
                                     </div>
                                 </div>
 
@@ -234,7 +244,7 @@ const Management = () => {
                                 />
                                 <div className="container text-container-profile">
                                     <h4 className="heading-text-profile">
-                                        Sam Wije
+                                        Champaka Wijewardana
                                     </h4>
                                     <p className="para-text">
                                         {t("card3_designation")}
