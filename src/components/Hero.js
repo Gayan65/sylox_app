@@ -7,6 +7,7 @@ import slide5 from "../assets/images/hero/5.jpg";
 import slide6 from "../assets/images/hero/6.jpg";
 import slide7 from "../assets/images/hero/7.jpg";
 
+import { Link } from "react-scroll";
 import { useTranslation } from "react-i18next";
 
 const Hero = () => {
@@ -61,9 +62,17 @@ const Hero = () => {
                     {t("header_sub2_hero")}
                 </p>
 
-                <button type="button" className="btn btn-primary mt-5">
+                <Link
+                    className="scroll-link btn btn-primary mt-5"
+                    activeClass="active-link"
+                    to="contact-section-scroll"
+                    spy={true}
+                    smooth={true}
+                    offset={-50}
+                    duration={500}
+                >
                     {t("btn1_hero")}
-                </button>
+                </Link>
             </div>
         </div>
     );
