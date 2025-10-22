@@ -7,6 +7,19 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+html,
+body {
+    overflow-x: hidden;
+    width: 100%;
+}
+
+* {
+    box-sizing: border-box;
+    max-width: 100%;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
 code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
         monospace;
@@ -860,6 +873,55 @@ body {
         gap: 1.5rem;
         transition: all 0.5s ease;
     }
+}
+
+/* --- FINAL mobile fix for very small screens (below 480px) --- */
+@media (max-width: 480px) {
+    .contact-section {
+        padding: 1rem 10px;
+        display: block;
+    }
+
+    .contact-container {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        justify-content: flex-start;
+        gap: 20px;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .contact-text,
+    .contact-form {
+        flex: 1 1 100%;
+        min-width: 0 !important; /* override any min-width */
+        max-width: 100%;
+        width: 100%;
+        box-sizing: border-box;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+    }
+
+    .contact-text h2,
+    .contact-text p,
+    .contact-form input,
+    .contact-form textarea {
+        width: 100%;
+    }
+
+    .send-btn {
+        width: 100%;
+        text-align: center;
+        align-self: center;
+    }
+}
+
+/* extra safety: prevent horizontal overflow anywhere */
+html,
+body {
+    overflow-x: hidden;
 }
 
 /*footer section*/
