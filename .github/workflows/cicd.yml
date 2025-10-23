@@ -36,5 +36,5 @@ jobs:
             - name: Run Docker Container
               shell: bash
               run: |
-                  sudo docker run -d -p 3000:80 --name reactjs-app-container \
+                  sudo docker run -d -p 3000:80 --name reactjs-app-container -e REACT_APP_API_URL=`${{ secrets.REACT_APP_API_URL }}` \
                   gayan65/sylox_frontend
