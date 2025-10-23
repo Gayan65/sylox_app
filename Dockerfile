@@ -12,10 +12,10 @@ COPY package*.json ./
 RUN npm install --legacy-peer-deps
 COPY . .
 
-# 2. FIX: Reverting to the RUN command, ensuring the variable is passed cleanly
-# We remove the ARG/ENV combination that was causing the malformed string.
-# This forces the build-arg value to be the ONLY thing passed as the variable's value.
-RUN REACT_APP_API_URL=$REACT_APP_API_URL npm run build
+# 2. FIX: FORCE SHELL EXPANSION & CLEAN ASSIGNMENT
+# We use 'sh -c' to ensure clean variable expansion. This reliably prevents the shell from including 
+# the variable name in the value, which is causing the malformed URL.
+RUN sh -c "REACT_APP_API_URL=$REACT_APP_API_URL npm run build"
 
 # --------------------
 # STAGE 2: Serve the Static Files (using Nginx or similar)
