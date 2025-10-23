@@ -46,7 +46,7 @@ const Contact = () => {
 
                 try {
                     const response = await fetch(
-                        "api/contact/create-contact/",
+                        `${process.env.REACT_APP_API_URL}/api/contact/create-contact/`,
                         {
                             method: "POST",
                             headers: {
