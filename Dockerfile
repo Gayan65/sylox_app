@@ -6,16 +6,17 @@ FROM node:20.10.0 as build
 
 # 1. CRITICAL: Declare the build argument to receive the value from the CI/CD
 ARG REACT_APP_API_URL
+ENV REACT_APP_API_URL=$REACT_APP_API_URL
 
 WORKDIR /app
 COPY package*.json ./
 RUN npm install --legacy-peer-deps
 COPY . .
-
+RUN npm run build
 # 2. FIX: FORCE SHELL EXPANSION & CLEAN ASSIGNMENT
 # We use 'sh -c' to ensure clean variable expansion. This reliably prevents the shell from including 
 # the variable name in the value, which is causing the malformed URL.
-RUN sh -c "REACT_APP_API_URL=$REACT_APP_API_URL npm run build"
+# RUN sh -c "REACT_APP_API_URL=$REACT_APP_API_URL npm run build"
 
 # --------------------
 # STAGE 2: Serve the Static Files (using Nginx or similar)
