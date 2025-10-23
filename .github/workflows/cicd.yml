@@ -10,15 +10,23 @@ jobs:
 
         steps:
             - uses: actions/checkout@v4
-            #BACKEND
+
+            - name: Set up Environment Variables
+              run: |
+                  echo "REACT_APP_API_URL=${{ secrets.REACT_APP_API_URL }}" >> $GITHUB_ENV
+
             - name: Login Dockerhub
               env:
                   DOCKER_USERNAME: ${{secrets.DOCKER_USERNAME}}
                   DOCKER_PASSWORD: ${{secrets.DOCKER_PASSWORD}}
               run: docker login -u $DOCKER_USERNAME -p $DOCKER_PASSWORD
 
-            - name: Build the Docker image
-              run: docker build -t gayan65/sylox_frontend:latest .
+            - name: Build the Docker image with API URL baked in
+              # This uses the variable set in the 'Set up Environment Variables' step
+              run: |
+                  docker build \
+                    --build-arg REACT_APP_API_URL=${{ env.REACT_APP_API_URL }} \
+                    -t gayan65/sylox_frontend:latest .
 
             - name: Push to docker hub
               run: docker push gayan65/sylox_frontend:latest
@@ -36,5 +44,5 @@ jobs:
             - name: Run Docker Container
               shell: bash
               run: |
-                  sudo docker run -d -p 3000:80 --name reactjs-app-container -e REACT_APP_API_URL=`${{ secrets.REACT_APP_API_URL }}` \
+                  sudo docker run -d -p 3000:80 --name reactjs-app-container \
                   gayan65/sylox_frontend
