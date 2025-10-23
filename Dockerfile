@@ -7,17 +7,15 @@ FROM node:20.10.0 as build
 # 1. CRITICAL: Declare the build argument to receive the value from the CI/CD
 ARG REACT_APP_API_URL
 
-# 2. NEW: Set a persistent ENV variable from the ARG value.
-# This ensures 'npm run build' picks up the variable correctly, resolving the issue.
-ENV REACT_APP_API_URL=$REACT_APP_API_URL
-
 WORKDIR /app
 COPY package*.json ./
 RUN npm install --legacy-peer-deps
 COPY . .
 
-# 3. UPDATED: Now we just run the build, as the ENV is already set.
-RUN npm run build
+# 2. FIX: Reverting to the RUN command, ensuring the variable is passed cleanly
+# We remove the ARG/ENV combination that was causing the malformed string.
+# This forces the build-arg value to be the ONLY thing passed as the variable's value.
+RUN REACT_APP_API_URL=$REACT_APP_API_URL npm run build
 
 # --------------------
 # STAGE 2: Serve the Static Files (using Nginx or similar)
