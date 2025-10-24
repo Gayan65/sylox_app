@@ -328,6 +328,24 @@ nav {
     }
 }
 
+@media (max-height: 500px) and (orientation: landscape) {
+    .hero-caption {
+        margin-top: 2rem !important;
+        left: 5%;
+        right: 5%;
+    }
+
+    .hero-caption h1 {
+        font-size: 1rem;
+        margin-top: 2px !important;
+    }
+
+    .hero-caption h5 {
+        margin-top: 1rem;
+        font-size: 1rem;
+    }
+}
+
 /*service section*/
 .custom-color {
     background-color: #e7f6ff;
