@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import cvImg from "../assets/images/portfolio/cvBuilder.png";
-import weatherImg from "../assets/images/portfolio/weatherStation.png";
-import parkingImg from "../assets/images/portfolio/parkReservation.png";
-import bloggyImg from "../assets/images/portfolio/bloggyApp.png";
+import cvImg from "../assets/images/portfolio/cvImg.jpeg";
+import weatherImg from "../assets/images/portfolio/co2Img.jpeg";
+import parkingImg from "../assets/images/portfolio/parkingImg.jpeg";
+import bloggyImg from "../assets/images/portfolio/bloggyImg.jpeg";
 import { useTranslation } from "react-i18next";
 
 const Portfolio = () => {
