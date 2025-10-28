@@ -55,20 +55,20 @@
     "l5_why_strong": "Kustannustehokkaat & joustavat mallit: ",
     "l5_why_normal": "Sisältää CapEx- ja OpEx-kulut, omistetut tiimit, henkilöstön lisäresursoinnin, kuukausisopimukset sekä ylläpito- ja tukisopimukset erilaisten tarpeiden ja budjettien mukaan.",
 
-    "heading_management": "Tapaa Johtotiimimme",
+    "heading_management": "Tapaa Johtomme",
     "para_management": "Johtomme varmistaa innovatiivisuuden, laadun ja asiakaskeskeisen toteutuksen jokaisessa projektissa.",
-    "card1_designation": "Perustaja",
-    "card2_designation": "Yhteisperustaja ja Kasvun Johtaja",
-    "card3_designation": "Teknologiapäällikkö",
+    "card1_designation": "Founder",
+    "card2_designation": "Core-Founder & Head of Growth",
+    "card3_designation": "Head of Technology",
     "card1_description": "Liiketoiminnan ja IT-alan ammattilainen, jolla on yli 16 vuoden kokemus ohjelmistohallinnasta ja yrittäjyydestä, johtaen monipuolisia toimintoja Australiassa, Afrikassa ja Sri Lankassa.",
     "card2_description": "Asiakaspalvelun asiantuntija, jolla on yli 15 vuoden kokemus Suomen eri toimialoilta. Erikoistunut asiakkaiden tarpeiden täyttämiseen, uskollisuuden edistämiseen sekä pitkäaikaiseen tyytyväisyyteen ja sitoutumiseen korkealaatuisen, luotettavan ja käyttäjäystävällisen palvelun avulla.",
-    "card3_description": "Ohjelmistohallinnan ammattilainen, jolla on yli 12 vuoden kokemus teknologiasta ja strategisesta johtamisesta. Hän johtaa innovaatioita, hallinnoi teknisiä tiimejä ja sovittaa teknologiset aloitteet liiketoimintatavoitteisiin kasvun ja kilpailuedun saavuttamiseksi sekä on sitoutunut tarjoamaan poikkeuksellisia tuloksia jokaiselle asiakkaalle.",
+    "card3_description": "Ohjelmistohallinnan ammattilainen, jolla on yli 12 vuoden kokemus teknologiastrategiasta, innovaatioiden johtamisesta, tiimien hallinnasta ja teknologisten aloitteiden sovittamisesta liiketoiminnan tavoitteisiin tuottaakseen erinomaisia tuloksia.",
 
     "heading_banner": "Ylpeästi suomalainen",
     "para_banner": "Toimitamme laadukkaita, luotettavia ja kestäviä ohjelmistoratkaisuja rehellisesti.",
 
     "heading_portfolio": "Viimeaikaiset projektit",
-    "para_portfolio": "Olemme ylpeitä voidessamme ilmoittaa seuraavien keskeisten projektien onnistuneesta valmistumisesta ja toimituksesta. Jokainen projekti edustaa merkittävää saavutusta sekä tiimillemme että asiakkaillemme, ja osoittaa sitoutumisemme huipputason ratkaisujen tarjoamiseen.",
+    "para_portfolio": "Olemme ylpeitä seuraavista keskeisistä projekteistamme ja niiden onnistuneesta valmistumisesta ja toimituksesta. Jokainen projekti edustaa merkittävää saavutusta sekä tiimillemme että asiakkaillemme, ja osoittaa sitoutumisemme huipputason ratkaisujen tarjoamiseen.",
 
     "heading_card1_portfolio": "Pysäköintiratkaisu",
     "heading_card2_portfolio": "Ansioluettelon luontityökalu",
@@ -84,7 +84,7 @@
     "heading_contact": "Ota yhteyttä",
     "para_contact": "Olitpa suunnittelemassa uutta projektia tai etsimässä teknologia kumppania, olemme valmiita auttamaan. Kerro meille tarpeistasi, niin otamme sinuun yhteyttä nopeasti.",
     "heading_card_contact": "Ota yhteyttä",
-    "para_card_contact": "Kerro meille, miten voimme palvella sinua parhaiten. Käytä yhteydenottolomaketta lähettääksesi meille sähköpostia tai ota meihin yhteyttä annettujen yhteystapojen kautta. On kunnia tukea sinua matkallasi kohti kasvua ja innovaatioita.",
+    "para_card_contact": "Lähetä sähköpostia, soita tai tule kahville. Haluamme mielellämme jutella lisää ja kuulla, miten voimme auttaa.",
     "sub_heading1_card_contact": "Osoite:",
     "l2_card_contact": "Raviradantie 7",
     "l3_card_contact": "5100, Mikkeli",
@@ -128,6 +128,6 @@
     "card3_para_about": "Arvostamme luottamusta, avoimuutta ja yhteistyötä. Tiimimme edistää työn ja vapaa-ajan tasapainoa, jatkuvaa oppimista ja osallisuutta, samalla kun toimitamme laadukkaita ja asiakaslähtöisiä ratkaisuja.",
     "card4_title_about": "MITEN TYÖSKENTELEMME",
     "card4_para_about": "Työskentelemme ketterästi ja joustavasti, kannustaen innovaatioihin ja luovuuteen kaikessa mitä teemme. Käytämme työssämme hybridimallia, ja pidämme tiivistä yhteyttä sekä ylläpidämme avointa viestintää saavuttaaksemme parhaat tulokset yhdessä.",
-    "card5_title_about": "SITOUTUMISEMME",
+    "card5_title_about": "MITEN SITOUDUMME",
     "card5_para_about": "Olemme sitoutuneet luomaan työympäristön, jossa jokainen voi toteuttaa täyden potentiaalinsa, tuntea itsensä arvostetuksi ja tehdä uransa parasta työtä. Rakennamme yritystä, jossa haluamme itse olla – ja josta voimme olla ylpeitä."
 }
