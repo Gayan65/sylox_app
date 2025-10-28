@@ -33,7 +33,7 @@ const WhySection = () => {
                     <li>
                         <FaCheckCircle className="why-icon" />
                         <div className="list-text">
-                            <strong>{t("l3_why_strong")}</strong>
+                            <strong>{t("l3_why_strong")}</strong>{" "}
                             {t("l3_why_normal")}
                         </div>
                     </li>
@@ -41,7 +41,7 @@ const WhySection = () => {
                     <li>
                         <FaCheckCircle className="why-icon" />
                         <div className="list-text">
-                            <strong>{t("l4_why_strong")}</strong>
+                            <strong>{t("l4_why_strong")}</strong>{" "}
                             {t("l4_why_normal")}
                         </div>
                     </li>
