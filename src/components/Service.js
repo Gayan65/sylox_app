@@ -97,7 +97,7 @@ const Service = () => {
                             <li>{t("l5_card3")}</li>
                             <li>{t("l6_card3")}</li>
                             <li>{t("l7_card3")}</li>
-                            <li>{t("l7_card3")}</li>
+                            <li>{t("l8_card3")}</li>
                         </ul>
 
                         <div className="service-tags">
