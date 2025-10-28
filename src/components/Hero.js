@@ -45,6 +45,9 @@ const Hero = () => {
                 )}
             </div>
             <div className="carousel-caption d-flex flex-column justify-content-center hero-caption">
+                <h1 className={`mt-4 mb-4 fade-up ${animate ? "fade-up" : ""}`}>
+                    {t("header_main_hero")}
+                </h1>
                 <h5
                     style={{
                         fontWeight: "bold",
@@ -52,9 +55,6 @@ const Hero = () => {
                 >
                     {t("header_sub1_hero")}
                 </h5>
-                <h1 className={`mt-4 mb-4 fade-up ${animate ? "fade-up" : ""}`}>
-                    {t("header_main_hero")}
-                </h1>
                 <p
                     style={{ fontSize: "1rem" }}
                     className={animate ? "fade-up-delay" : ""}
