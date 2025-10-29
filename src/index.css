@@ -874,6 +874,14 @@ body {
     .contact-container {
         flex-direction: column;
         align-items: stretch;
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        justify-content: flex-start;
+        gap: 20px;
+        width: 100%;
+        margin: 0;
+        padding: 0;
     }
 
     .portfolio-grid {
