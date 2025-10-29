@@ -1,3 +1,5 @@
+import "react-phone-number-input/style.css";
+import PhoneInput from "react-phone-number-input";
 import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
 import Swal from "sweetalert2";
@@ -149,22 +151,13 @@ const Contact = () => {
                                 onChange={(e) => setEmail(e.target.value)}
                                 value={email}
                             />
-                            <input
-                                type="tel"
+                            <PhoneInput
                                 placeholder={t("phone_ph")}
-                                onChange={(e) => {
-                                    // Allow only numbers, +, space, and -
-                                    const value = e.target.value.replace(
-                                        /[^0-9+\s-]/g,
-                                        ""
-                                    );
-                                    setPhone(value);
-                                }}
                                 value={phone}
-                                inputMode="tel"
-                                pattern="^\+?[0-9\s-]{4,15}$"
-                                title={t("phone_validation")}
-                                required
+                                onChange={setPhone}
+                                defaultCountry="FI" // Finland 🇫🇮 (change to your default)
+                                international
+                                limitMaxLength
                             />
 
                             <textarea
