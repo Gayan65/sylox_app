@@ -530,13 +530,10 @@ nav {
     max-width: 400px;
     text-align: center;
     position: relative;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
     color: #333;
-    padding: 20px;
+    padding: 40px 20px;
     transition: all 0.5s ease;
+    margin: 0 auto;
 }
 
 .profile-img-container {
@@ -606,12 +603,6 @@ nav {
     opacity: 0.8;
     transform: scale(1.02);
     transition: 0.2s ease;
-}
-
-@media (max-width: 991px) {
-    .profile-card-back {
-        top: 50%;
-    }
 }
 
 /*Fi Banner*/
