@@ -5,7 +5,7 @@ import slide3 from "../assets/images/hero/3.jpg";
 import slide4 from "../assets/images/hero/4.jpg";
 import slide5 from "../assets/images/hero/5.jpg";
 import slide6 from "../assets/images/hero/6.jpg";
-import slide7 from "../assets/images/hero/7.jpg";
+import slide7 from "../assets/images/hero/7.png";
 
 import { Link } from "react-scroll";
 import { useTranslation } from "react-i18next";
