@@ -24,7 +24,7 @@ const AboutUs = () => {
                     id="carouselExampleIndicators"
                     className="carousel slide"
                     data-bs-ride="carousel"
-                    data-bs-interval="4000"
+                    data-bs-interval="8000"
                 >
                     <div className="carousel-indicators">
                         <button
