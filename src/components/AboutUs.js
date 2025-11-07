@@ -1,7 +1,7 @@
 import React from "react";
 import visionImg from "../assets/images/team/IMG_4957.jpg";
 import missionImg from "../assets/images/team/IMG_4903.jpg";
-import teamCulture from "../assets/images/team/IMG_4436.jpg";
+import teamCulture from "../assets/images/team/IMG_4436.jpeg";
 import howWorkImg from "../assets/images/team/IMG_4350.jpg";
 import ourCommitImg from "../assets/images/team/IMG_4433.jpg";
 
